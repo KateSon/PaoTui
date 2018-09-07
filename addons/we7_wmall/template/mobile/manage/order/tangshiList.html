@@ -1,4 +1,10 @@
 {itemplate 'public/header'}
+<style>
+	.order_address{height: 38px;
+		border-bottom: 1px solid #ded6d6;
+		line-height: 38px;}
+
+</style>
 <div class="page" id="page-manage-order">
 	<header class="bar bar-nav common-bar-nav">
 		<a class="icon pull-left icon icon-arrow-left back"></a>
@@ -46,13 +52,20 @@
 								{/loop}
 							</div>
 							{/if}
+							{if !empty($order['address'])}
+							<div class="order_address">下单地址:{$order['address']}
+
+							</div>
+							{/if}
 							<div class="order-ls-sum">
-								{if $order['order_type'] == 3}
+								<!--if $order['order_type'] == 3
 									{$order['table_sn']}号桌,{$order['person_num']}人就餐<br>
 									共{$order['num']}件,最终入账:¥{$order['store_final_fee']}
-								{else}
+								else
 									{$table_categorys[$order['table_cid']]['title']},{$order['reserve_time']}就餐,{$order_reserve_types[$order['reserve_type']]['text']}
-								{/if}
+								/if-->
+
+
 								<span class="color-danger">(顾客实际支付¥{$order['final_fee']})</span>
 								<span>{$pay_types[$order['pay_type']]['text']}</span>
 							</div>

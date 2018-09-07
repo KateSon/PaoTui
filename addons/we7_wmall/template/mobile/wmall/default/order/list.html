@@ -80,17 +80,21 @@
 								<a href="{php echo imurl('wmall/order/index/cancel', array('id' => $order['id']));}" class="table-cell js-post" data-confirm="确定取消该订单吗">取消订单</a>
 								{if $order['is_pay'] == 1}
 									<a href="{php echo imurl('wmall/order/index/remind', array('id' => $order['id']));}" class="table-cell border-1px-l js-post">催单</a>
+									<!--<a href="{php echo imurl('wmall/order/index/detail', array('id' => $order['id']));}" class="table-cell border-1px-l js-post">查看物流</a>
+									<a href="{php echo imurl('wmall/order/index/end', array('id' => $order['id']));}" class="table-cell border-1px-l js-post">确认收货</a>-->
 								{/if}
 							{elseif in_array($order['status'], array(2, 3, 4))}
 								{if $order['order_type'] == 1}
 									{if $order['status'] == 4}
-										<a href="{php echo imurl('wmall/order/index/end', array('id' => $order['id']));}" class="table-cell js-post" data-confirm="你确定收到该商家的外卖?">确认送达</a>
+										<a href="{php echo imurl('wmall/order/index/end', array('id' => $order['id']));}" class="table-cell js-post" data-confirm="你确定收到该商家的商品?">确认收货</a>
 									{/if}
 								{elseif $order['order_type'] == 2}
 									<a href="{php echo imurl('wmall/order/index/end', array('id' => $order['id']));}" class="table-cell js-post" data-confirm="确认已到店自提?">我已提货</a>
 								{/if}
 								{if $order['is_pay'] == 1}
-									<a href="{php echo imurl('wmall/order/index/remind', array('id' => $order['id']));}" class="table-cell border-1px-l js-post">催单</a>
+							<a href="{php echo imurl('wmall/order/index/remind', array('id' => $order['id']));}" class="table-cell border-1px-l js-post">催单</a>
+						<!--	<a href="{php echo imurl('wmall/order/index/detail', array('id' => $order['id']));}" class="table-cell border-1px-l js-post">查看物流</a>-->
+
 								{/if}
 							{elseif in_array($order['status'], array(5))}
 								<a href="{php echo imurl('wmall/store/goods', array('f' => '1', 'id' => $order['id'], 'sid' => $order['sid']));}" class="table-cell border-1px-r" data-id="{$order['id']}">再来一单</a>
@@ -160,21 +164,28 @@
 			<{# if(d[i].status == 1){ }>
 				<a href="{php echo imurl('wmall/order/index/cancel');}&id=<{d[i].id}>" class="table-cell js-post" data-confirm="确定取消该订单吗">取消订单</a>
 				<{# if(d[i].is_pay == 1){ }>
+					<a href="{php echo imurl('wmall/order/index/detail');}&id=<{d[i].id}>" class="table-cell border-1px-l">查看物流</a>
 					<a href="{php echo imurl('wmall/order/index/remind');}&id=<{d[i].id}>" class="table-cell border-1px-l js-post">催单</a>
+					<a href="{php echo imurl('wmall/order/index/end');}&id=<{d[i].id}>" class="table-cell border-1px-l js-post">确认收货</a>
 				<{# } }>
 			<{# } else if(d[i].status >= 2 && d[i].status <= 4) { }>
+				<{# if(d[i].is_pay == 1){ }>
+				<a href="{php echo imurl('wmall/order/index/detail');}&id=<{d[i].id}>" class="table-cell border-1px-l">查看物流</a>
+				<a href="{php echo imurl('wmall/order/index/remind');}&id=<{d[i].id}>" class="table-cell border-1px-l js-post">催单</a>
+				<a href="{php echo imurl('wmall/order/index/end');}&id=<{d[i].id}>" class="table-cell border-1px-l js-post">确认收货</a>
+				<{# } }>
 				<{# if(d[i].order_type == 1){ }>
-					<{# if(d[i].order_type == 4){ }>
-						<a href="{php echo imurl('wmall/order/index/end');}&id=<{d[i].id}>" class="table-cell js-post" data-confirm="你确定收到该商家的外卖?">确认送达</a>
+					<{# if(d[i].order_type == 4 || d[i].order_type == 1){ }>
+						<a href="{php echo imurl('wmall/order/index/end');}&id=<{d[i].id}>" class="table-cell js-post" data-confirm="你确定收到该商家的商品?">确认收货</a>
 					<{# } }>
 				<{# } else if(d[i].order_type == 2) { }>
 					<a href="{php echo imurl('wmall/order/index/end');}&id=<{d[i].id}>" class="table-cell js-post" data-confirm="确认已到店自提?">我已提货</a>
 				<{# } }>
-				<{# if(d[i].is_pay == 1){ }>
-					<a href="{php echo imurl('wmall/order/index/remind');}&id=<{d[i].id}>" class="table-cell border-1px-l js-post">催单</a>
-				<{# } }>
+
 			<{# } else if(d[i].status == 5) { }>
+				<a href="{php echo imurl('wmall/order/index/detail');}&id=<{d[i].id}>" class="table-cell border-1px-l">查看物流</a>
 				<a href="{php echo imurl('wmall/store/goods', array('f' => '1'));}&id=<{d[i].id}>&sid=<{d[i].sid}>" class="table-cell border-1px-r" data-id="{$order['id']}">再来一单</a>
+
 				<{# if(d[i].is_comment == 1){ }>
 					<a href="{php echo imurl('wmall/order/comment');}&id=<{d[i].id}>" class="table-cell"><{d[i].comment_cn}></a>
 				<{# } else { }>

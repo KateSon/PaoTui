@@ -347,12 +347,18 @@ $(function(){
 			return false;
 		}*/
 		var number = $('.number').val();
+		if(!number) {
+			$.toast("详细地址不能为空");
+			return false;
+		}
+
+
 		var params = {
 			realname: realname,
 			mobile: mobile,
 			sex: sex,
 			address: area+number,
-			number: number,
+			number: '',
 			location_x: lat,
 			location_y: lng,
 			redirect_type: "{$redirect_type}"

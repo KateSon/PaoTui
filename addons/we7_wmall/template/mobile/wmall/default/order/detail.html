@@ -8,17 +8,40 @@
 	{php get_mall_menu();}
 	<div class="content">
 		<div class="buttons-tab">
-			<a href="#order-detail" class="tab-link active button">订单详情</a>
+			{if $order['order_type'] == 4}
+			<a href="#order-logistics" class="tab-link active button">物流详情</a>
+			{/if}
+			<a href="#order-detail" class="tab-link  button">订单详情</a>
 			<a href="#order-status" class="tab-link button">订单状态</a>
 			{if $order['refund_status'] > 0}
 				<a href="#order-refund" class="tab-link button">退款详情</a>
 			{/if}
-			{if $order['order_type'] == 4}
-				<a href="#order-logistics" class="tab-link button">物流详情</a>
-			{/if}
+
 		</div>
 		<div class="tabs">
-			<div id="order-detail" class="tab active">
+			<!--物流详情-->
+			<div id="order-logistics" class="tab active">
+				{loop $logictics['data'] $key $log}
+				<div class="order-status-item">
+					<div class="guide">
+						{if $maxid != $key}
+						<img src="{WE7_WMALL_TPL_URL}static/img/order_status_service_grey.png" alt="" />
+						{else}
+						<img src="{WE7_WMALL_TPL_URL}static/img/order_status_service.png" alt="" />
+						{/if}
+					</div>
+					<div class="order-status-info">
+						<div class="arrow-left"></div>
+						<div class="clearfix">{$log['time']}</div>
+						<div class="tips">{$log['context']}</div>
+					</div>
+					<!--{if $order['delivery_handle_type'] == 'app' && $log['type'] == 'delivery_instore'}
+                        <div id="map" class="map-info border-1px" style="height: 160px; background: #FFF; margin-top: -1em; z-index: 10000"></div>
+                    {/if}-->
+				</div>
+				{/loop}
+			</div>
+			<div id="order-detail" class="tab">
 				<div class="order-state border-1px-tb">
 					<div class="order-state-con">
 						<div class="guide">
@@ -312,27 +335,7 @@
 					{/loop}
 				</div>
 			</div>
-			<div id="order-logistics" class="tab">
-				{loop $logictics['data'] $key $log}
-					<div class="order-status-item">
-						<div class="guide">
-							{if $maxid != $key}
-								<img src="{WE7_WMALL_TPL_URL}static/img/order_status_service_grey.png" alt="" />
-							{else}
-								<img src="{WE7_WMALL_TPL_URL}static/img/order_status_service.png" alt="" />
-							{/if}
-						</div>
-						<div class="order-status-info">
-							<div class="arrow-left"></div>
-							<div class="clearfix">{$log['time']}</div>
-							<div class="tips">{$log['context']}</div>
-						</div>
-						<!--{if $order['delivery_handle_type'] == 'app' && $log['type'] == 'delivery_instore'}
-							<div id="map" class="map-info border-1px" style="height: 160px; background: #FFF; margin-top: -1em; z-index: 10000"></div>
-						{/if}-->
-					</div>
-				{/loop}
-			</div>
+
 			
 		</div>
 		{if $share_button > 0}
