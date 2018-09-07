@@ -1,0 +1,2970 @@
+2018-07-23 09:08:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1LtiPMxsshqsvsZQbFUkxys]]></FromUserName>
+<CreateTime>1532308089</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 09:08:11 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1LtiPMxsshqsvsZQbFUkxys',
+    'createtime' => '1532308089',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1LtiPMxsshqsvsZQbFUkxys',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532308089',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 09:08:11 response :
+------------
+
+2018-07-23 09:08:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1LtiPMxsshqsvsZQbFUkxys]]></FromUserName>
+<CreateTime>1532308112</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 09:08:32 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1LtiPMxsshqsvsZQbFUkxys',
+    'createtime' => '1532308112',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1LtiPMxsshqsvsZQbFUkxys',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532308112',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 09:08:32 response :
+------------
+
+2018-07-23 10:00:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1532311245</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:00:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1532311245',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532311245',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:00:45 response :
+------------
+
+2018-07-23 10:29:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1532312985</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:29:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1532312985',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532312985',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:29:45 response :
+------------
+
+2018-07-23 10:42:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1532313745</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:42:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1532313745',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532313745',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:42:26 response :
+------------
+
+2018-07-23 10:46:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1532314005</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:46:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1532314005',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314005',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:46:45 response :
+------------
+
+2018-07-23 10:47:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1LLgPDnr7k9tft3O30zkrFI]]></FromUserName>
+<CreateTime>1532314046</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:47:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1LLgPDnr7k9tft3O30zkrFI',
+    'createtime' => '1532314046',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1LLgPDnr7k9tft3O30zkrFI',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314046',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:47:26 response :
+------------
+
+2018-07-23 10:47:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1LtiPMxsshqsvsZQbFUkxys]]></FromUserName>
+<CreateTime>1532314071</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:47:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1LtiPMxsshqsvsZQbFUkxys',
+    'createtime' => '1532314071',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1LtiPMxsshqsvsZQbFUkxys',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314071',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:47:51 response :
+------------
+
+2018-07-23 10:48:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1LLgPDnr7k9tft3O30zkrFI]]></FromUserName>
+<CreateTime>1532314126</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:48:46 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1LLgPDnr7k9tft3O30zkrFI',
+    'createtime' => '1532314126',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1LLgPDnr7k9tft3O30zkrFI',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314126',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:48:46 response :
+------------
+
+2018-07-23 10:49:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1L8Hd7SfAJ7tF75Yxce3YnQ]]></FromUserName>
+<CreateTime>1532314148</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:49:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1L8Hd7SfAJ7tF75Yxce3YnQ',
+    'createtime' => '1532314148',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1L8Hd7SfAJ7tF75Yxce3YnQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314148',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:49:08 response :
+------------
+
+2018-07-23 10:51:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NUfGmqL6fDdwv4Im5AMVAQ]]></FromUserName>
+<CreateTime>1532314318</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:51:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'createtime' => '1532314318',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314318',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:51:58 response :
+------------
+
+2018-07-23 10:51:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1A595VTjzcMAVS4PVtGdM0k]]></FromUserName>
+<CreateTime>1532314319</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:51:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1A595VTjzcMAVS4PVtGdM0k',
+    'createtime' => '1532314319',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1A595VTjzcMAVS4PVtGdM0k',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314319',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:51:59 response :
+------------
+
+2018-07-23 10:52:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1LLgPDnr7k9tft3O30zkrFI]]></FromUserName>
+<CreateTime>1532314366</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:52:46 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1LLgPDnr7k9tft3O30zkrFI',
+    'createtime' => '1532314366',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1LLgPDnr7k9tft3O30zkrFI',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314366',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:52:46 response :
+------------
+
+2018-07-23 10:53:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NUfGmqL6fDdwv4Im5AMVAQ]]></FromUserName>
+<CreateTime>1532314402</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:53:22 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'createtime' => '1532314402',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314402',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:53:22 response :
+------------
+
+2018-07-23 10:54:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NUfGmqL6fDdwv4Im5AMVAQ]]></FromUserName>
+<CreateTime>1532314457</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:54:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'createtime' => '1532314457',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314457',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:54:17 response :
+------------
+
+2018-07-23 10:55:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1A595VTjzcMAVS4PVtGdM0k]]></FromUserName>
+<CreateTime>1532314501</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:55:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1A595VTjzcMAVS4PVtGdM0k',
+    'createtime' => '1532314501',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1A595VTjzcMAVS4PVtGdM0k',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314501',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:55:02 response :
+------------
+
+2018-07-23 10:55:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1532314527</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:55:28 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1532314527',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314527',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:55:28 response :
+------------
+
+2018-07-23 10:56:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1532314564</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:56:04 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1532314564',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314564',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:56:04 response :
+------------
+
+2018-07-23 10:56:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1532314610</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:56:50 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1532314610',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314610',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:56:50 response :
+------------
+
+2018-07-23 10:59:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1532314775</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 10:59:35 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1532314775',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532314775',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 10:59:35 response :
+------------
+
+2018-07-23 11:15:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk]]></FromUserName>
+<CreateTime>1532315713</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 11:15:14 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'createtime' => '1532315713',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532315713',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 11:15:14 response :
+------------
+
+2018-07-23 11:15:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk]]></FromUserName>
+<CreateTime>1532315715</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 11:15:16 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'createtime' => '1532315715',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532315715',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 11:15:16 response :
+------------
+
+2018-07-23 11:20:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk]]></FromUserName>
+<CreateTime>1532316053</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 11:20:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'createtime' => '1532316053',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532316053',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 11:20:53 response :
+------------
+
+2018-07-23 11:21:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk]]></FromUserName>
+<CreateTime>1532316064</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 11:21:04 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'createtime' => '1532316064',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532316064',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 11:21:04 response :
+------------
+
+2018-07-23 11:22:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk]]></FromUserName>
+<CreateTime>1532316152</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 11:22:33 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'createtime' => '1532316152',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532316152',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 11:22:33 response :
+------------
+
+2018-07-23 11:22:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk]]></FromUserName>
+<CreateTime>1532316179</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 11:22:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'createtime' => '1532316179',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532316179',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 11:22:59 response :
+------------
+
+2018-07-23 11:25:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk]]></FromUserName>
+<CreateTime>1532316331</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 11:25:31 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'createtime' => '1532316331',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532316331',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 11:25:31 response :
+------------
+
+2018-07-23 11:25:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk]]></FromUserName>
+<CreateTime>1532316341</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 11:25:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'createtime' => '1532316341',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532316341',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 11:25:42 response :
+------------
+
+2018-07-23 11:25:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk]]></FromUserName>
+<CreateTime>1532316353</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 11:25:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'createtime' => '1532316353',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1KrtCOcaqVu9Ym3ypU8I7Lk',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532316353',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 11:25:53 response :
+------------
+
+2018-07-23 11:37:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1532317041</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 11:37:22 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1532317041',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532317041',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 11:37:22 response :
+------------
+
+2018-07-23 11:37:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1532317057</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 11:37:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1532317057',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532317057',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 11:37:37 response :
+------------
+
+2018-07-23 12:04:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1Lc0oZQSIGWoujyYgDxppck]]></FromUserName>
+<CreateTime>1532318690</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 12:04:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1Lc0oZQSIGWoujyYgDxppck',
+    'createtime' => '1532318690',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1Lc0oZQSIGWoujyYgDxppck',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532318690',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 12:04:51 response :
+------------
+
+2018-07-23 12:04:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1Lc0oZQSIGWoujyYgDxppck]]></FromUserName>
+<CreateTime>1532318697</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 12:04:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1Lc0oZQSIGWoujyYgDxppck',
+    'createtime' => '1532318697',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1Lc0oZQSIGWoujyYgDxppck',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532318697',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 12:04:57 response :
+------------
+
+2018-07-23 12:05:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1LvCe1J3SKuUoAPgdIL435A]]></FromUserName>
+<CreateTime>1532318707</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 12:05:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1LvCe1J3SKuUoAPgdIL435A',
+    'createtime' => '1532318707',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1LvCe1J3SKuUoAPgdIL435A',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532318707',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 12:05:07 response :
+------------
+
+2018-07-23 12:12:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NUfGmqL6fDdwv4Im5AMVAQ]]></FromUserName>
+<CreateTime>1532319174</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 12:12:55 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'createtime' => '1532319174',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532319174',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 12:12:55 response :
+------------
+
+2018-07-23 12:17:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NUfGmqL6fDdwv4Im5AMVAQ]]></FromUserName>
+<CreateTime>1532319423</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 12:17:03 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'createtime' => '1532319423',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532319423',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 12:17:03 response :
+------------
+
+2018-07-23 12:18:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1ANgyAoeZ1N9Kb_Tz0Bkfd4]]></FromUserName>
+<CreateTime>1532319537</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 12:18:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1ANgyAoeZ1N9Kb_Tz0Bkfd4',
+    'createtime' => '1532319537',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1ANgyAoeZ1N9Kb_Tz0Bkfd4',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532319537',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 12:18:57 response :
+------------
+
+2018-07-23 12:41:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1CGJPJKvOOV-2axeilQtmms]]></FromUserName>
+<CreateTime>1532320884</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 12:41:24 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'createtime' => '1532320884',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532320884',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 12:41:24 response :
+------------
+
+2018-07-23 13:13:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NX0tn89547Xfo14Kc56-7M]]></FromUserName>
+<CreateTime>1532322791</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[1]]></Content>
+<MsgId>6581276274701935899</MsgId>
+</xml>
+
+2018-07-23 13:13:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NX0tn89547Xfo14Kc56-7M',
+    'createtime' => '1532322791',
+    'msgtype' => 'text',
+    'content' => '1',
+    'msgid' => '6581276274701935899',
+    'from' => 'oS2nE1NX0tn89547Xfo14Kc56-7M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532322791',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'cover',
+  'rule' => '9',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '13',
+    'rid' => '9',
+    'uniacid' => '2',
+    'module' => 'cover',
+    'content' => '1',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2018-07-23 13:13:11 response :
+------------
+Array:
+FromUserName : gh_2d8af677b35f ;
+ToUserName : oS2nE1NX0tn89547Xfo14Kc56-7M ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2018-07-23 13:13:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NX0tn89547Xfo14Kc56-7M]]></FromUserName>
+<CreateTime>1532322794</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 13:13:14 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NX0tn89547Xfo14Kc56-7M',
+    'createtime' => '1532322794',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1NX0tn89547Xfo14Kc56-7M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532322794',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 13:13:14 response :
+------------
+
+2018-07-23 13:13:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NX0tn89547Xfo14Kc56-7M]]></FromUserName>
+<CreateTime>1532322799</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 13:13:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NX0tn89547Xfo14Kc56-7M',
+    'createtime' => '1532322799',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1NX0tn89547Xfo14Kc56-7M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532322799',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 13:13:19 response :
+------------
+
+2018-07-23 15:29:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1LtiPMxsshqsvsZQbFUkxys]]></FromUserName>
+<CreateTime>1532330990</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/web/index.php?c=platform&a=menu&do=post&]]></EventKey>
+<MenuId>441495937</MenuId>
+</xml>
+
+2018-07-23 15:29:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1LtiPMxsshqsvsZQbFUkxys',
+    'createtime' => '1532330990',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/web/index.php?c=platform&a=menu&do=post&',
+    'menuid' => '441495937',
+    'from' => 'oS2nE1LtiPMxsshqsvsZQbFUkxys',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532330990',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/web/index.php?c=platform&a=menu&do=post&',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 15:29:51 response :
+------------
+
+2018-07-23 16:04:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HvvM4TAzoDngWCcoRAiNPA]]></FromUserName>
+<CreateTime>1532333054</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 16:04:15 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HvvM4TAzoDngWCcoRAiNPA',
+    'createtime' => '1532333054',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1HvvM4TAzoDngWCcoRAiNPA',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532333054',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 16:04:15 response :
+------------
+
+2018-07-23 16:07:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1C3zahtSXryczHOrpEV7JXs]]></FromUserName>
+<CreateTime>1532333239</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 16:07:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1C3zahtSXryczHOrpEV7JXs',
+    'createtime' => '1532333239',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1C3zahtSXryczHOrpEV7JXs',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532333239',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 16:07:19 response :
+------------
+
+2018-07-23 16:21:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1BkFcvub_-n197ZeVWf_hRQ]]></FromUserName>
+<CreateTime>1532334102</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 16:21:44 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1BkFcvub_-n197ZeVWf_hRQ',
+    'createtime' => '1532334102',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1BkFcvub_-n197ZeVWf_hRQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532334102',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 16:21:44 response :
+------------
+
+2018-07-23 16:47:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F8deu8EWdcZT7oHWt40mCs]]></FromUserName>
+<CreateTime>1532335678</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 16:47:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F8deu8EWdcZT7oHWt40mCs',
+    'createtime' => '1532335678',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1F8deu8EWdcZT7oHWt40mCs',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532335678',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 16:47:59 response :
+------------
+
+2018-07-23 16:49:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1AufXgC3IcresnHT73YaWz8]]></FromUserName>
+<CreateTime>1532335770</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 16:49:31 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1AufXgC3IcresnHT73YaWz8',
+    'createtime' => '1532335770',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1AufXgC3IcresnHT73YaWz8',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532335770',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 16:49:31 response :
+------------
+
+2018-07-23 16:49:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1AufXgC3IcresnHT73YaWz8]]></FromUserName>
+<CreateTime>1532335777</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/web/index.php?c=platform&a=menu&do=post&]]></EventKey>
+<MenuId>441495937</MenuId>
+</xml>
+
+2018-07-23 16:49:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1AufXgC3IcresnHT73YaWz8',
+    'createtime' => '1532335777',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/web/index.php?c=platform&a=menu&do=post&',
+    'menuid' => '441495937',
+    'from' => 'oS2nE1AufXgC3IcresnHT73YaWz8',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532335777',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/web/index.php?c=platform&a=menu&do=post&',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 16:49:37 response :
+------------
+
+2018-07-23 16:56:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NKrgWuV2qatfLeLfg1emN0]]></FromUserName>
+<CreateTime>1532336184</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 16:56:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NKrgWuV2qatfLeLfg1emN0',
+    'createtime' => '1532336184',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1NKrgWuV2qatfLeLfg1emN0',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532336184',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 16:56:25 response :
+------------
+
+2018-07-23 17:00:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1532336422</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441462599</MenuId>
+</xml>
+
+2018-07-23 17:00:22 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1532336422',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441462599',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532336422',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 17:00:22 response :
+------------
+
+2018-07-23 17:08:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1AufXgC3IcresnHT73YaWz8]]></FromUserName>
+<CreateTime>1532336890</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/web/index.php?c=platform&a=menu&do=post&]]></EventKey>
+<MenuId>441495937</MenuId>
+</xml>
+
+2018-07-23 17:08:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1AufXgC3IcresnHT73YaWz8',
+    'createtime' => '1532336890',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/web/index.php?c=platform&a=menu&do=post&',
+    'menuid' => '441495937',
+    'from' => 'oS2nE1AufXgC3IcresnHT73YaWz8',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532336890',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/web/index.php?c=platform&a=menu&do=post&',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 17:08:10 response :
+------------
+
+2018-07-23 17:08:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1532336918</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[测试内容]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2018-07-23 17:08:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1532336918',
+    'msgtype' => 'text',
+    'content' => '测试内容',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1532336918',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-23 17:08:45 response :
+------------
+
+2018-07-23 17:09:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1532336936</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[测试内容]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2018-07-23 17:09:03 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1532336936',
+    'msgtype' => 'text',
+    'content' => '测试内容',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1532336936',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-23 17:09:03 response :
+------------
+
+2018-07-23 17:09:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1532336939</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[测试内容]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2018-07-23 17:09:06 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1532336939',
+    'msgtype' => 'text',
+    'content' => '测试内容',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1532336939',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-23 17:09:06 response :
+------------
+
+2018-07-23 17:09:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1532336940</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[测试内容]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2018-07-23 17:09:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1532336940',
+    'msgtype' => 'text',
+    'content' => '测试内容',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1532336940',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-23 17:09:07 response :
+------------
+
+2018-07-23 17:09:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1532336953</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[333]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2018-07-23 17:09:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1532336953',
+    'msgtype' => 'text',
+    'content' => '333',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1532336953',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-23 17:09:19 response :
+------------
+
+2018-07-23 17:09:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1532336955</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[333]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2018-07-23 17:09:21 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1532336955',
+    'msgtype' => 'text',
+    'content' => '333',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1532336955',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-07-23 17:09:21 response :
+------------
+
+2018-07-23 17:09:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1532336962</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[1]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2018-07-23 17:09:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1532336962',
+    'msgtype' => 'text',
+    'content' => '1',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1532336962',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'cover',
+  'rule' => '9',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '13',
+    'rid' => '9',
+    'uniacid' => '2',
+    'module' => 'cover',
+    'content' => '1',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2018-07-23 17:09:29 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2018-07-23 17:30:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1B8To8qY8ZL5cZbmh4-umYg]]></FromUserName>
+<CreateTime>1532338247</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 17:30:47 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1B8To8qY8ZL5cZbmh4-umYg',
+    'createtime' => '1532338247',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1B8To8qY8ZL5cZbmh4-umYg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532338247',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 17:30:47 response :
+------------
+
+2018-07-23 17:30:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1B8To8qY8ZL5cZbmh4-umYg]]></FromUserName>
+<CreateTime>1532338256</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/web/index.php?c=platform&a=menu&do=post&]]></EventKey>
+<MenuId>441495937</MenuId>
+</xml>
+
+2018-07-23 17:30:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1B8To8qY8ZL5cZbmh4-umYg',
+    'createtime' => '1532338256',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/web/index.php?c=platform&a=menu&do=post&',
+    'menuid' => '441495937',
+    'from' => 'oS2nE1B8To8qY8ZL5cZbmh4-umYg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532338256',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/web/index.php?c=platform&a=menu&do=post&',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 17:30:57 response :
+------------
+
+2018-07-23 17:31:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F1IWyi2-e8z1OjlAceX0vo]]></FromUserName>
+<CreateTime>1532338260</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 17:31:01 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F1IWyi2-e8z1OjlAceX0vo',
+    'createtime' => '1532338260',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1F1IWyi2-e8z1OjlAceX0vo',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532338260',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 17:31:01 response :
+------------
+
+2018-07-23 17:32:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NUfGmqL6fDdwv4Im5AMVAQ]]></FromUserName>
+<CreateTime>1532338357</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[1]]></Content>
+<MsgId>6581343130162871146</MsgId>
+</xml>
+
+2018-07-23 17:32:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'createtime' => '1532338357',
+    'msgtype' => 'text',
+    'content' => '1',
+    'msgid' => '6581343130162871146',
+    'from' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532338357',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'cover',
+  'rule' => '9',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '13',
+    'rid' => '9',
+    'uniacid' => '2',
+    'module' => 'cover',
+    'content' => '1',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2018-07-23 17:32:38 response :
+------------
+Array:
+FromUserName : gh_2d8af677b35f ;
+ToUserName : oS2nE1NUfGmqL6fDdwv4Im5AMVAQ ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2018-07-23 17:33:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F1IWyi2-e8z1OjlAceX0vo]]></FromUserName>
+<CreateTime>1532338425</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441498495</MenuId>
+</xml>
+
+2018-07-23 17:33:46 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F1IWyi2-e8z1OjlAceX0vo',
+    'createtime' => '1532338425',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'menuid' => '441498495',
+    'from' => 'oS2nE1F1IWyi2-e8z1OjlAceX0vo',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532338425',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 17:33:46 response :
+------------
+
+2018-07-23 17:33:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1B8To8qY8ZL5cZbmh4-umYg]]></FromUserName>
+<CreateTime>1532338438</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441498495</MenuId>
+</xml>
+
+2018-07-23 17:33:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1B8To8qY8ZL5cZbmh4-umYg',
+    'createtime' => '1532338438',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'menuid' => '441498495',
+    'from' => 'oS2nE1B8To8qY8ZL5cZbmh4-umYg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532338438',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 17:33:59 response :
+------------
+
+2018-07-23 17:38:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NUfGmqL6fDdwv4Im5AMVAQ]]></FromUserName>
+<CreateTime>1532338728</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441498495</MenuId>
+</xml>
+
+2018-07-23 17:38:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'createtime' => '1532338728',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'menuid' => '441498495',
+    'from' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532338728',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 17:38:49 response :
+------------
+
+2018-07-23 17:39:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1B8To8qY8ZL5cZbmh4-umYg]]></FromUserName>
+<CreateTime>1532338775</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441498495</MenuId>
+</xml>
+
+2018-07-23 17:39:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1B8To8qY8ZL5cZbmh4-umYg',
+    'createtime' => '1532338775',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'menuid' => '441498495',
+    'from' => 'oS2nE1B8To8qY8ZL5cZbmh4-umYg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532338775',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 17:39:36 response :
+------------
+
+2018-07-23 17:40:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NUfGmqL6fDdwv4Im5AMVAQ]]></FromUserName>
+<CreateTime>1532338857</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441498495</MenuId>
+</xml>
+
+2018-07-23 17:40:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'createtime' => '1532338857',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'menuid' => '441498495',
+    'from' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532338857',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 17:40:57 response :
+------------
+
+2018-07-23 17:41:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1532338900</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=manage&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441498728</MenuId>
+</xml>
+
+2018-07-23 17:41:40 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1532338900',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=manage&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441498728',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532338900',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=manage&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 17:41:40 response :
+------------
+
+2018-07-23 17:43:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1CLjcm5mKFnoSfpD0EqJ7zs]]></FromUserName>
+<CreateTime>1532338981</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 17:43:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1CLjcm5mKFnoSfpD0EqJ7zs',
+    'createtime' => '1532338981',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1CLjcm5mKFnoSfpD0EqJ7zs',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532338981',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 17:43:02 response :
+------------
+
+2018-07-23 17:50:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1CLjcm5mKFnoSfpD0EqJ7zs]]></FromUserName>
+<CreateTime>1532339399</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441498728</MenuId>
+</xml>
+
+2018-07-23 17:50:00 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1CLjcm5mKFnoSfpD0EqJ7zs',
+    'createtime' => '1532339399',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'menuid' => '441498728',
+    'from' => 'oS2nE1CLjcm5mKFnoSfpD0EqJ7zs',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532339399',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 17:50:00 response :
+------------
+
+2018-07-23 18:27:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F1IWyi2-e8z1OjlAceX0vo]]></FromUserName>
+<CreateTime>1532341676</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441498728</MenuId>
+</xml>
+
+2018-07-23 18:27:56 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F1IWyi2-e8z1OjlAceX0vo',
+    'createtime' => '1532341676',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'menuid' => '441498728',
+    'from' => 'oS2nE1F1IWyi2-e8z1OjlAceX0vo',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532341676',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 18:27:56 response :
+------------
+
+2018-07-23 18:39:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1532342389</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=manage&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441498728</MenuId>
+</xml>
+
+2018-07-23 18:39:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1532342389',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=manage&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441498728',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532342389',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=manage&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 18:39:49 response :
+------------
+
+2018-07-23 18:39:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1532342399</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441498728</MenuId>
+</xml>
+
+2018-07-23 18:39:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1532342399',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'menuid' => '441498728',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532342399',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 18:39:59 response :
+------------
+
+2018-07-23 19:22:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1532344957</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441498728</MenuId>
+</xml>
+
+2018-07-23 19:22:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1532344957',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'menuid' => '441498728',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532344957',
+    'type' => 'text',
+    'content' => 'http://paotui.scxysd.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=guide&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-07-23 19:22:37 response :
+------------
+
+2018-07-23 19:53:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1EHrJxuIOehNYTXkCe1_FlI]]></FromUserName>
+<CreateTime>1532346818</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-07-23 19:53:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1EHrJxuIOehNYTXkCe1_FlI',
+    'createtime' => '1532346818',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1EHrJxuIOehNYTXkCe1_FlI',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1532346818',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-07-23 19:53:38 response :
+------------
+

@@ -1,0 +1,125 @@
+<?php defined('IN_IA') or exit('Access Denied');?><?php  include itemplate('public/header', TEMPLATE_INCLUDEPATH);?>
+<div class="page newMember">
+	<header class="bar bar-nav common-bar-nav">
+		<a href="javascript:;" class="pull-left back"><i class="icon icon-arrow-left"></i></a>
+		<h1 class="title open-popup">创建门店新用户活动</h1>
+	</header>
+	<div class="content">
+		<?php  if(!$activity['id']) { ?>
+			<div class="list-block">
+				<ul>
+					<li>
+						<div class="item-content">
+							<div class="item-inner">
+								<div class="item-title label">起始日期</div>
+								<div class="item-input">
+									<input type="text" placeholder="请选择开始日期" name="starttime" data-toggle='date' class="align-right" />
+									<i class="icon icon-right"></i>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="border-1px-b">
+						<div class="item-content">
+							<div class="item-inner">
+								<div class="item-title label">结束日期</div>
+								<div class="item-input">
+									<input type="text" placeholder="请选择结束日期" name="endtime" data-toggle='date' class="align-right" />
+									<i class="icon icon-right"></i>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="activity-box">
+				<div class="activity-title">优惠信息</div>
+				<ul id="activity-content">
+					<li class="activity-col">
+						<span>门店新客立减</span>
+						<div class="input-box">
+							<input type="text" name="back" value="">
+						</div>
+						<span>元</span>
+					</li>
+				</ul>
+			</div>
+			<div class="confirm">
+				<a href="javascript:;" class="submit">确认并保存</a>
+			</div>
+		<?php  } else { ?>
+			<div class="list-block">
+				<ul>
+					<li>
+						<div class="item-content">
+							<div class="item-inner">
+								<div class="item-title label">起始日期</div>
+								<div class="item-input align-right">
+									<?php  echo date('Y-m-d', $activity['starttime']);?>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-content">
+							<div class="item-inner">
+								<div class="item-title label">结束日期</div>
+								<div class="item-input align-right">
+									<?php  echo date('Y-m-d', $activity['endtime']);?>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="activitys">
+				<div class="activity-title">已创建活动</div>
+				<ul>
+					<li>门店新客立减<?php  echo $activity['data']['back'];?>元，平台承担<?php  if(!empty($activity['data']['plateform_charge'])) { ?> <?php  echo $activity['data']['plateform_charge'];?> <?php  } else { ?> 0 <?php  } ?>元</li>
+				</ul>
+			</div>
+			<div class="cancel">
+				<a href="<?php  echo imurl('manage/activity/newMember/del')?>" class="js-post button button-fill" data-confirm="确定撤销活动么">撤销此活动</a>
+			</div>
+		<?php  } ?>
+	</div>
+</div>
+<script>
+$(function(){
+	$(document).on('click', '.confirm .submit', function(){
+		var starttime = $.trim($(':text[name="starttime"]').val());
+		if(!starttime) {
+			$.toast('活动开始时间不能为空');
+			return false;
+		}
+		var endtime = $.trim($(':text[name="endtime"]').val());
+		if(!endtime) {
+			$.toast('活动结束时间不能为空');
+			return false;
+		}
+		var back = $.trim($(':text[name="back"]').val());
+		if(!back) {
+			$.toast('活动金额不能为空');
+			return false;
+		}
+		$(this).addClass('disabled');
+		var params = {
+			starttime: starttime,
+			endtime: endtime,
+			back: back,
+		}
+		$.post("<?php  echo imurl('manage/activity/newMember');?>", params, function(data){
+			var result = $.parseJSON(data);
+			if(result.message.errno != 0) {
+				$.toast(result.message.message);
+				$('.confirm .submit').removeClass('disabled');
+				return false;
+			}
+			$.toast('门店新用户活动创建完成', "<?php  echo imurl('manage/activity/index');?>");
+		})
+	});
+})
+</script>
+
+
+<?php  include itemplate('public/footer', TEMPLATE_INCLUDEPATH);?>

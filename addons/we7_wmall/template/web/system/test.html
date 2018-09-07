@@ -1,0 +1,3606 @@
+{itemplate 'public/header'}
+<style>
+	.left-menu{
+		width:100%;
+	}
+	.left-menu a{
+		display:inline-block;
+		width:100%;
+		height:44px;
+		border-radius:0px;
+		background: #fff;
+		line-height:44px;
+		padding-left: 6%;
+	}
+	.pic-goods{
+	    float: left;
+	    width: 250px;
+	    height: 260px;
+	    border-right: 1px dashed #e5e5e5;
+	    border-bottom: 1px dashed #e5e5e5;
+	    overflow: hidden;
+	}
+	.goods-avatar{
+	    position: relative;
+	    width: 100%;
+	    padding:0 6%;
+    	height: 130px;
+    	margin: 20px auto 0;
+    	overflow: hidden;
+	}
+	.goods-name{
+    	width: 100%;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	white-space: nowrap;
+	    font-size: 14px;
+    	color: #333;
+    	font-weight: 700;
+    	margin-top:12px;
+    	padding:0 6%;
+	}
+	.goods-name>a{
+		color:#000;
+	}
+	.goods-description{
+    	width: 100%;
+    	padding:0 6%;
+		overflow: hidden;
+    	text-overflow: ellipsis;
+    	white-space: nowrap;
+	    font-size: 12px;
+    	color: #999;
+    	margin:10px 0;
+	}
+	.goods-price{
+	    font-size: 14px;
+    	color: #ff5a5a;
+    	font-weight: 700;
+    	padding:0 5%;
+    	width:100px;
+    	height:30px;
+    	float:left;
+    	line-height:30px;
+	}
+	.goods-num{
+    	width:100px;
+    	float:right;
+		margin-right:20px;
+
+	}
+	.goods-num-del,.goods-num-add{
+        border-radius: 50%;
+        font-size:20px;
+        font-weight:600;
+	}
+	.goods-num-del{
+		color:#ccc;
+		border:1px solid #ccc;
+		display:none!important;
+	}
+	.goods-num-add{
+		color:#f00;
+		border:1px solid #f00;
+	}
+	.goods-num>span{
+		display:inline-block;
+		float:right;
+	    width: 24px;
+   		height: 24px;
+        line-height:24px;
+        margin-top:4px;
+        cursor:pointer;
+        text-align: center;
+	}
+	.goods-num-number{
+		margin:0 5px;
+	    font-size: 14px;
+		display:none!important;
+	}
+	.goods-display{
+		width:100%;
+	}
+	.goods-display-item{
+		width:100%;
+		max-height:520px;
+		overflow-y:auto;
+		display: none;
+	}
+	.goods-display-item:first-child{
+		display:block;
+	}
+	.goods-display-item::-webkit-scrollbar-thumb{
+		background: #ccc;
+	}
+	.goods-item-num{
+		display:inline-block;
+		width:20px;
+		height:20px;
+		border-radius:50%;
+		line-height:20px;
+		text-align: center;
+		background:#f00;
+		color:#fff;
+		font-size:12px;
+		margin-left:5px;
+	}
+	/*左侧菜单点击时样式*/
+	.left-menu-active{
+		border:1px solid #ccc;
+		border-right:0;
+		border-left:0;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	white-space: nowrap;
+	}
+	.left-menu-other{
+		border-right:1px solid #ccc;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	white-space: nowrap;
+	}
+	.shop-list{
+		width:100%;
+		height:130px;
+		border-bottom:1px dashed #e5e5e5;
+		margin:20px 0;
+	}
+	.shop-select{
+		width:100%;
+		height:120px;
+		margin:0 80px 30px 0;
+		padding:10px;
+		border:1px solid #ccc;
+	}
+	.shop-info{
+		width:100%;
+		height:120px;
+		margin-bottom:30px;
+		border:1px solid #ccc;
+	}
+	.img-name{
+		width:412px;
+		float: left;
+	}
+	.shop-img{
+	   	margin-left: 20px;
+	    margin-top: 16px;
+	    width: 106px;
+	    height: 80px;
+	    line-height: 88px;
+	    text-align: center;
+	    overflow: hidden;
+	    float: left;
+	}
+	.shop-name{
+		float: left;
+	}
+	.shop-item-name{
+	    width: 260px;
+	    margin-left: 16px;
+	    padding-top: 38px;
+	    line-height: 1;
+	}
+	.shop-item-name>a>span{
+	    font-size: 14px;
+    	color: #333;
+    	display: inline-block;
+    	max-width: 270px;
+    	overflow: hidden;
+    	font-weight: bold!important;
+	}
+	.shop-item-stars{
+		margin:14px 0 0 16px;
+	}
+	.star-ranking{
+	    margin-top: 1px;
+    	background-image: url(http://xs01.meituan.net/waimai_web/img/restaurant/star-gray.svg);
+    	display: inline-block;
+	    width: 75px;
+	    height: 12px;
+	    line-height: 12px;
+	    overflow: hidden;
+	    background-repeat: repeat-x;
+	    background-size: 15px 12px;
+	}
+	.star-score{
+	    display: inline-block;
+	    width: 75px;
+	    height: 12px;
+	    line-height: 12px;
+	    overflow: hidden;
+	    background-image: url(http://xs01.meituan.net/waimai_web/img/restaurant/star-yellow.svg);
+	    background-repeat: repeat-x;
+	    background-size: 15px 12px;
+	}
+	.other-info{
+	    color: #666;
+	    padding-top: 31px;
+	    float: right;
+	}
+	.fl{
+		float: left;
+	    text-align: left;
+    	margin-right: 100px;
+	    color: #666;
+	}
+	.nu>strong{
+		margin-right: 3px;
+	    font-family: microsoft yahei;
+	    font-size: 28px;
+	    font-weight: 900;
+	    vertical-align: sub;
+	}
+	/*已售完样式*/
+	.all-selled{
+		width: 60px;
+	    height: 25px;
+	    line-height: 25px;
+	    text-align: center;
+	    background-color: #b5b5b5;
+	    color: #fff;
+	    border-radius:2px;
+	    margin-left:40px;
+	}
+
+	.order-list{
+		position:fixed;
+		z-index:10000;
+		width:306px;
+		bottom:0px;
+		right:132px;
+	    background-color: #FFF;
+	}
+	.page{
+		position:relative;
+	}
+	.order-title{
+	    color: #333;
+	    background-color: #eee;
+	    height: 45px;
+	    line-height: 45px;
+	    padding: 0 10px;
+	    font-size: 14px;
+	}
+	.order-dishes{
+		float:right;
+	}
+	.clear-cart{
+	    color: #333;
+	}
+	.order-goods-name{
+		float:left;
+		width: 148px;
+   		margin: 16px 0 14px;
+	}
+	.order-modify{
+		float:left;
+		height:50px;
+		line-height:50px;
+	}
+	.order-modify a{
+	    display: inline-block;
+	    width: 16px;
+	    height: 16px;
+	    line-height:16px;
+	    border: 1px solid #E5E5E5;
+	    letter-spacing: 0;
+	    color: #333;
+	    text-align: center;
+	}
+	.txt-count{
+	    width: 28px;
+	    display: inline-block;
+	    height: 16px;
+	    padding: 0 3px;
+	    line-height: 16px;
+	    text-align: center;
+        outline: none;  
+        border:1px solid #ccc;
+        margin:0 -5px;
+	}
+	.order-pri{
+	    color: #ffa735;
+	    line-height: 49px;
+	    width: 52px;
+	    text-align: right;
+	    float:right;
+	}
+	.order-list ul li{
+		margin:0px 10px;
+	    border-bottom: 1px solid #E5E5E5;
+	}
+	.packing-cost{
+	    height: 50px;
+	    line-height: 50px;
+	    border-bottom: 1px solid #e5e5e5;
+	    margin: 0 10px;
+	}
+	.order-list .total{
+	    height: 54px;
+	    line-height: 54px;
+	    text-align: right;
+	    padding-right: 10px;
+	}
+	.order-list .total .totalnumber{
+	    margin: 0 3px;
+    	color: #fe4d3d;
+	}
+	.order-list .total .bill{
+	    font-size: 28px;
+	    font-weight: 700;
+	    margin-right: 0;
+	    color: #fe4d3d;
+	}
+	.order-footer{
+	    background-color: #333;
+	    cursor: pointer;
+	    position: relative;
+	    z-index: 1;
+	    height: 50px;
+	    margin-top: -1px;
+	}
+	.cart-logo{
+		float:left;
+	    width: 25px;
+	    height: 25px;
+	    position: absolute;
+	    top: 13px;
+	    left: 10px;
+	    background: url(http://xs01.meituan.net/waimai_web/img/restaurant/cart.svg) no-repeat;
+	    background-size: 100% 100%;
+	}
+	.go-pay{
+		float:right;
+	    color: #333;
+	    background-color: #ffd161;
+	    font-weight: 700;
+	    padding: 0 23px;
+	    border: 0;
+	    cursor: pointer;
+	    border-radius: 0;
+	    height: 50px;
+	    line-height: 50px;
+	    font-size: 16px;
+	    text-align: center;
+	}
+	.ready-pay{
+		float:right;
+    	color: #fff;
+		background-color: #a0a0a0;
+	    border: 0;
+    	padding: 0 15px;
+    	border-radius: 0;
+    	height: 50px;
+	    line-height: 50px;
+	    font-size: 16px;
+	    text-align: center;
+	}
+	.ready-pay:hover{
+		color:#fff;
+	}
+	.order-list-body{
+		width:100%;
+		background:#fff;
+		position: absolute;
+		top:-260px;
+		transition:top 1s;
+	    border:1px solid #eee;
+	}
+	.buyer-info{
+		position: fixed;
+		bottom:0px;
+		left:230px;
+		width:100%;
+		height:105px;
+		background:#fff;
+		z-index:100;
+	}
+	.buyer-info-inner{
+		width:81%;
+		height:100%;
+		background:#fbfbfb;
+		padding-left:15px;
+	}
+	.buyer-info-item{
+		margin-top:14px;
+		width:30%;
+	}
+	.buyer-info-item input{
+		display:inline-block;
+		height:30px;
+		outline:none;
+		box-shadow: none;
+	}
+	.left-container{
+		width:11%;
+		float:left;
+	}
+	.right-container{
+		width:89%;
+		float:left;
+		padding:0 5%;
+	}
+	.footer{
+		padding:35px 0;
+	}
+	.goods-display-title{
+		width:100%;
+		height:30px;
+		line-height:30px;
+		font-size:16px;
+		font-weight: bold;
+		border-bottom:1px dashed #ccc;
+		margin-bottom:20px;
+		padding-left:10px;
+	}
+
+
+	.choosespec-dlg{
+		position: fixed;
+		z-index:1000000;
+	    width: 250px;
+	    padding: 2px 0 12px 15px;
+	    background-color: #fff;
+	    -webkit-box-shadow: 1px 1px 5px #ccc;
+        border: 1px solid #ebebeb;
+	    border-top: 2px solid #ffd161;
+	    display:none;
+	}
+	.choosespec-item-left{
+		margin-top: 10px;
+    	line-height: 20px;
+	    float: left;
+	    width: 40px;
+	    color: #898989;
+        cursor: default;
+        /*border:1px solid red;*/
+        font-size:12px;
+	}
+	.choosespec-item-right{
+	    float: left;
+    	width: 192px;
+        /*border:1px solid red;*/
+	}
+	.choosespec-item-options{
+	    float: left;
+	    line-height: 20px;
+	    min-width: 50px;
+	    background-color: #f5f5f5;
+	    color: #898989;
+	    margin-top: 10px;
+	    margin-right: 5px;
+	    border-radius: 2px;
+	    -webkit-border-radius: 2px;
+	    text-align: center;
+	    font-size:12px;
+	    padding:0 3px;
+	}
+	.choosespec-item-options:hover{
+	    background-color: #ffd161;
+    	color: #333;
+	}
+	.choosespec-item-options.selected{
+	    background-color: #ffd161;
+    	color: #333;
+	}
+	.choosespec-price,.choosespec-item-num{
+		display:inline-block;
+		margin-top: 10px;
+	    margin-left: 5px;
+    	color: #434343;
+	}
+	.choosespec-item-minus,.choosespec-item-plus{
+		display:inline-block;
+		width:20px;
+		height:20px;
+		border:1px solid #eee;
+		text-align: center;
+		line-height: 20px;
+		color:red;
+		font-weight: normal;
+	}
+	.choosespec-item-number{
+		display:inline-block;
+	    width: 30px;
+    	text-align: center;
+    	color: #434343;
+	    line-height: 20px;
+	}
+	/*选择规格按钮样式*/
+	.choosespec-btn{
+		width: 60px;
+	    height: 25px;
+	    cursor:pointer;
+	    line-height: 25px;
+	    text-align: center;
+	    background-color: #ffd161;
+	    color: #333;
+	    border-radius:2px;
+	    margin-left:40px;
+	}
+	.order-list-container{
+		max-height:215px;
+		overflow-y:auto;
+	}
+	.order-list-container::-webkit-scrollbar-thumb{
+		background: #ccc;
+	}
+	.cart-count{
+	    position: absolute;
+	    left: 26px;
+	    background: #ff5a5a;
+	    padding: 1px 8px;
+	    border-radius: 9px;
+	    color: #fff;
+	    font-size: 12px;
+	    top: 7px;
+	}
+	.left-menu div{
+		width:100%;
+		height:44px;
+	}
+</style>
+<div class="page clearfix ">
+	<div class="left-container">
+		<div class="shop-select">
+			<div class="form-group">
+				<label for="">请选择店铺</label>
+				<select class="form-control" name="shopname">
+				  	<option value="">和合谷</option>
+				  	<option value="">肯德基</option> 	
+				  	<option value="">麦当劳</option>
+				  	<option value="">麦当劳</option>
+				  	<option value="">麦当劳</option>
+				  	<option value="">麦当劳</option>
+				</select>
+			</div>
+		</div>
+		<!-- 左侧菜单 -->
+		<div class="left-menu">
+			<div class="left-menu-active">
+				<a class="">岁末狂欢岁末狂欢岁末狂欢岁末狂欢岁末狂欢岁末狂欢（10）</a>
+			</div>
+			<div class="left-menu-other">
+				<a>饮料类（10）</a>
+			</div>
+			<div class="left-menu-other">
+				<a>厨卫用品（10）</a>
+			</div>
+			<div class="left-menu-other">
+				<a>饮料类（10）</a>
+			</div>
+			<div class="left-menu-other">
+				<a>粮油（10）</a>
+			</div>
+			<div class="left-menu-other">
+				<a>个人护理（10）</a>
+			</div>
+			<div class="left-menu-other">
+				<a>成人用品（10）</a>
+			</div>
+			<div class="left-menu-other">
+				<a>日常用品（10）</a>
+			</div>
+			<div class="left-menu-other">
+				<a>整件类（10）</a>
+			</div>
+			<div class="left-menu-other">
+				<a>代购香烟（10）</a>
+			</div>
+			<div class="left-menu-other">
+				<a>母婴用品（10）</a>
+			</div>
+			<div class="left-menu-other">
+				<a>啤酒（10）</a>
+			</div>
+			<div class="left-menu-other">
+				<a>速食品（10）</a>
+			</div>
+		</div>
+	</div>
+	<div class="right-container">
+		<div class="shop-info">
+			<div class="img-name">
+				<div class="shop-img">
+					<img src="http://p0.meituan.net/120.0/xianfu/0bd72c8b393e7b67d358415147d7402e114099.jpg" alt="" width="106px" height="79.5px">
+				</div>
+				<div class="shop-name">
+					<div class="shop-item-name">
+						<a href="">
+            				<span>和合谷（高新店）</span>
+          				</a>
+					</div>
+					<div class="shop-item-stars">
+						<span class="star-ranking ">
+		                    <span class="star-score" style="width: 52px"></span>
+		              	</span>
+					</div>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+			<div class="other-info">
+				<div class="fl">
+		          	<div class="desc">平均送餐时间</div>
+		          	<div class="nu">
+	                  	<strong>30</strong>分钟
+		          	</div>
+				</div>
+				<div class="fl">
+		            <div class="desc">起送</div>
+		            <div class="nu">
+	                  	<strong>20</strong>元
+		            </div>
+				</div>
+				<div class="fl">
+		          	<div class="desc">配送费</div>
+		          	<div class="nu">
+		              	<strong>3.5</strong>元
+		          	</div>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+		<div class="goods-display-title">商品列表</div>
+		<!-- 右侧商品列表 -->
+		<div class="goods-display">
+			<ul>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<a href=""><img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="100%"></a>
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<!-- 已售完 -->
+							<div class="all-selled">已售完</div>
+							<!-- 未售完 -->
+							<!-- <span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div> -->
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<!-- 选择规格样式 -->
+							<div class="choosespec-btn">
+								选规格
+							</div>
+
+							<!-- <span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div> -->
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/7a8b3467ce321f462276b44c5f26d52477824.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述商品描述商品描述商品描述商品描述商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+														<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p1.meituan.net/210.0/wmproduct/65053d7c95488d8e9906c81d18d7b28083761.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述商品描述商品描述商品描述商品描述商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+														<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/7a8b3467ce321f462276b44c5f26d52477824.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述商品描述商品描述商品描述商品描述商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+														<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述商品描述商品描述商品描述商品描述商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+														<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/7a8b3467ce321f462276b44c5f26d52477824.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述商品描述商品描述商品描述商品描述商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+														<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述商品描述商品描述商品描述商品描述商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+														<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/7a8b3467ce321f462276b44c5f26d52477824.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述商品描述商品描述商品描述商品描述商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+														<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述商品描述商品描述商品描述商品描述商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+														<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/7a8b3467ce321f462276b44c5f26d52477824.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述商品描述商品描述商品描述商品描述商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+														<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述商品描述商品描述商品描述商品描述商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+														<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/7a8b3467ce321f462276b44c5f26d52477824.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述商品描述商品描述商品描述商品描述商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+														<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+				<li class="goods-display-item">
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/7a8b3467ce321f462276b44c5f26d52477824.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述商品描述商品描述商品描述商品描述商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">0</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+														<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div class="pic-goods">
+						<div class="goods-avatar">
+							<img src="http://p0.meituan.net/210.0/xianfu/f33261663d9d16702d86c7b6ebd7733e109047.jpg" alt="" width="">
+						</div>
+						<div class="goods-name">
+							<a href="">商品名称</a>
+						</div>
+						<div class="goods-description">
+							商品描述
+						</div>
+						<div class="goods-price">
+							￥140.00
+						</div>
+						<div class="goods-num">
+							<span class="goods-num-add">+</span>
+							<span class="goods-num-number">10</span>
+							<span class="goods-num-del">-</span>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<form action="">
+		<!-- 订单列表 -->
+		<div class="order-list">
+			<div class="order-list-body">
+				<div class="order-title">
+		            <span class="buy-title">购物车</span>
+		  	        <span class="order-dishes"><a href="javascript:;" class="clear-cart"><i class="glyphicon glyphicon-trash"></i>  清空菜品</a></span>
+				</div>
+				<div class="order-list-container">
+					<ul class="order-list-ul">
+						<li class="clearfix order-list-item">  
+							<div class="order-goods-name">土豆爱上烧肉饭</div>      
+							<div class="order-modify">    
+								<a href="javascript:;" class="">-</a>    
+								<input type="text" class="txt-count" value="1" maxlength="2">    
+								<a href="javascript:;" class="">+</a> 
+							</div>  
+							<div class="order-pri">    
+								<span>¥28</span>  
+							</div>  
+						</li>
+						<li class="clearfix order-list-item">  
+							<div class="order-goods-name">土豆爱上烧肉饭</div>      
+							<div class="order-modify">    
+								<a href="javascript:;" class="">-</a>    
+								<input type="text" class="txt-count" value="1" maxlength="2">    
+								<a href="javascript:;" class="">+</a> 
+							</div>  
+							<div class="order-pri">    
+								<span>¥28</span>  
+							</div>  
+						</li>
+						<li class="clearfix order-list-item">  
+							<div class="order-goods-name">土豆爱上烧肉饭</div>      
+							<div class="order-modify">    
+								<a href="javascript:;" class="">-</a>    
+								<input type="text" class="txt-count" value="1" maxlength="2">    
+								<a href="javascript:;" class="">+</a> 
+							</div>  
+							<div class="order-pri">    
+								<span>¥28</span>  
+							</div>  
+						</li>
+					</ul>
+					<div class="clearfix packing-cost">
+			          	<span class="">包装费</span>
+			          	<span class="order-pri">¥4</span>
+			        </div>
+			        <div class="clearfix packing-cost">
+			          	<span class="">配送费(不计入起送价)</span>
+			          	<span class="order-pri">¥3.5</span>
+			        </div>
+			        <div class="total">共<span class="totalnumber">2</span>份，总计 <span class="bill">¥67.5</span></div>
+				</div>
+			</div>
+	        <div class="clearfix order-footer">
+	        	<div class="cart-logo" data="0"></div>
+				<div class="cart-count">0</div>
+	        	<!-- 订单金额未满，无法配送 -->
+	        	<a class="ready-pay borderradius-2" href="javascript:;" style="display: inline-block;">
+	        		差<span data-left="20" class="margintominprice">0.5</span>元起送
+	        	</a>
+	        	<!-- 可下单 -->
+	        	<input class="go-pay" type="submit" value="立即下单">
+	        </div>
+		</div>
+		<!-- 买家信息 -->
+		<div class="buyer-info">
+			<div class="buyer-info-inner">
+				<div class="form-inline">
+				  	<div class="form-group buyer-info-item">
+					    <label for="exampleInputName2">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</label>
+					    <input type="text" class="form-control">
+				  	</div>
+				  	<div class="form-group buyer-info-item ">
+				    	<label for="exampleInputEmail2">手机号：</label>
+				    	<input type="email" class="form-control">
+			 	 	</div>
+		 	 		<div class="form-group buyer-info-item ">
+					    <label for="exampleInputName2">配送费：</label>
+					    <input type="text" class="form-control" readonly>
+				  	</div>
+				  	<div class="form-group buyer-info-item ">
+				    	<label for="exampleInputEmail2">配送地址：</label>
+				    	<input type="email" class="form-control" size="30">
+			 	 	</div>
+		 	 		<div class="form-group buyer-info-item">
+					    <label for="exampleInputName2">备&nbsp;&nbsp;&nbsp;&nbsp;注：</label>
+					    <input type="text" class="form-control" size="30">
+				  	</div>
+				</div>
+			</div>
+		</div>
+	</form>
+
+	<!-- 商品规格弹出框 -->
+	<div class="choosespec-dlg">
+		<div class="choosespec-item">
+			<div class="choosespec-item-left">饮品：</div>
+			<div class="choosespec-item-right">
+				<a href="#" class="choosespec-item-options selected">可乐</a>
+				<a href="#" class="choosespec-item-options">雪碧</a>
+				<a href="#" class="choosespec-item-options">芬达</a>
+				<a href="#" class="choosespec-item-options">可乐</a>
+				<a href="#" class="choosespec-item-options">可乐</a>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+		<div class="choosespec-item">
+			<div class="choosespec-item-left">小吃：</div>
+			<div class="choosespec-item-right">
+				<a href="#" class="choosespec-item-options selected">黄金凤尾虾</a>
+				<a href="#" class="choosespec-item-options">原味鸡米花</a>
+				<a href="#" class="choosespec-item-options">原味鸡米花</a>
+				<a href="#" class="choosespec-item-options">原味鸡米花</a>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+		<div class="choosespec-item">
+			<div class="choosespec-item-left">主食：</div>
+			<div class="choosespec-item-right">
+				<a href="#" class="choosespec-item-options selected">小装超级棒约翰</a>
+				<a href="#" class="choosespec-item-options">小装双倍牛肉</a>
+				<a href="#" class="choosespec-item-options">南美香辣鲜虾意面</a>
+				<a href="#" class="choosespec-item-options">黑胡椒牛肉饭</a>
+				<a href="#" class="choosespec-item-options">南美香辣鲜虾意面</a>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+		<div class="choosespec-item">
+			<div class="choosespec-item-left">价格：</div>
+			<div class="choosespec-item-right">
+				<span class="choosespec-price">￥72</span>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+		<div class="choosespec-item">
+			<div class="choosespec-item-left">数量：</div>
+			<div class="choosespec-item-right">
+				<div class="choosespec-item-num">
+					<span class="glyphicon glyphicon-minus choosespec-item-minus"></span>
+					<span class="choosespec-item-number">0</span>
+					<span class="glyphicon glyphicon-plus choosespec-item-plus"></span>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+	</div>
+</div>
+<script>
+	var count=$('.order-list-ul').children().length;
+	if (count>0) {
+		$(".cart-count").show();
+		$(".cart-count").html(count);
+	}else{
+		$(".cart-count").hide();
+	}
+	// 购物车面板商品数量自动变化
+	$(".order-list-ul").bind('DOMNodeInserted',function(){
+		var count=$(this).children().length;
+		if (count>0) {
+			$(".cart-count").show();
+			$(".cart-count").html(count);
+		}else{
+			$(".cart-count").hide();
+		}
+	});
+
+	// 左侧菜单点击时样式改变，右侧对应的显示
+	$('.left-menu>div').click(function(){
+		var index=$(this).index();
+		$(this).addClass('left-menu-active').siblings().removeClass('left-menu-active');
+		$(this).removeClass('left-menu-other').siblings().addClass('left-menu-other');
+		$('.goods-display-item').eq(index).show();
+		$('.goods-display-item').eq(index).siblings().hide();
+	});
+
+	// 点击+号，弹出商品规格面板
+	$('.goods-num-add').click(function(e){
+		e.stopPropagation();
+		var offset=$(this).offset();
+		var cTop=offset.top;
+		var cLeft=offset.left;
+		cTop=cTop+24;
+		cLeft=cLeft-250+24+20;
+		$('.choosespec-dlg').css({'top':cTop+'px','left':cLeft+'px'});
+		$('.choosespec-dlg').show();
+	})
+	// 商品规格面板点击自己不隐藏
+	$('.choosespec-dlg').click(function(e){
+		e.stopPropagation();
+		$(this).show();
+	})
+	// 点击文档其他处面板隐藏
+	$(document).click(function(){
+		$('.choosespec-dlg').hide();
+	})
+	// 鼠标滚轮滚动面板隐藏	
+	document.onmousewheel=function(){
+		$('.choosespec-dlg').hide();
+	}
+
+	//商品数量加
+	// $('.goods-num-add').click(function(){
+	// 	var num=$(this).siblings('.goods-num-number').html();
+	// 	num++;
+	// 	$(this).siblings('.goods-num-number').html(num);
+	// });
+	$('.choosespec-item-plus').click(function(){
+		var num=$(this).siblings('.choosespec-item-number').html();
+		num++;
+		$(this).siblings('.choosespec-item-number').html(num);
+	});
+	//商品数量减
+	$('.goods-num-del').click(function(){
+		var num=$(this).siblings('.goods-num-number').html();
+		num--;
+		if (num<=0) {
+			num=0;
+		};
+		$(this).siblings('.goods-num-number').html(num);
+	});
+	$('.choosespec-item-minus').click(function(){
+		var num=$(this).siblings('.choosespec-item-number').html();
+		num--;
+		if (num<=0) {
+			num=0;
+		};
+		$(this).siblings('.choosespec-item-number').html(num);
+	});
+	// 每行最后一个商品去右边框
+	$('.goods-display-item>.pic-goods').filter(function(index){
+		if ((index+1)%5==0) {
+			return $(this);
+		}
+	}).css('borderRight','0');
+	// 购物车图标点击列表现是隐藏
+	$('.cart-logo').click(function(){
+		var orderListHeight=$('.order-list-body').height();
+		var data=$(this).attr('data');
+		if (data%2==0) {
+			$('.order-list-body').css('top','0px');
+			$(this).attr('data',1);
+		}else{
+			$('.order-list-body').css('top',-orderListHeight);
+			$(this).attr('data',0);
+		}
+	})
+	// 清空购物车
+	// $('.clear-cart').click(function(){
+	// 	$('.order-list-body').css('top','0px');
+	// 	$('.order-list-item').remove();
+	// 	$('.packing-cost').remove();
+	// 	$('.packing-cost').remove();
+	// 	$('.total').remove();
+	// });
+
+
+	// 商品规格面板 点击切换颜色
+	$('.choosespec-item-right>a').click(function(){
+		$(this).addClass('selected').siblings().removeClass('selected');
+	})
+
+</script>
+{itemplate 'public/footer'}

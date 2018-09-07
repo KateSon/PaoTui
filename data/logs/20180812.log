@@ -1,0 +1,405 @@
+2018-08-12 10:42:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1ObWV0fIX0TZZD86fmGguY0]]></FromUserName>
+<CreateTime>1534041746</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-08-12 12:58:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1EtFWVBBxIK52AikGvV7y7k]]></FromUserName>
+<CreateTime>1534049904</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441820143</MenuId>
+</xml>
+
+2018-08-12 12:58:24 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1EtFWVBBxIK52AikGvV7y7k',
+    'createtime' => '1534049904',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441820143',
+    'from' => 'oS2nE1EtFWVBBxIK52AikGvV7y7k',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534049904',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-12 12:58:24 response :
+------------
+
+2018-08-12 18:11:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1Bc1a25u-apOVoW76B9x-8Q]]></FromUserName>
+<CreateTime>1534068696</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-08-12 18:11:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1Bc1a25u-apOVoW76B9x-8Q',
+    'createtime' => '1534068696',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1Bc1a25u-apOVoW76B9x-8Q',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534068696',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-08-12 18:11:37 response :
+------------
+
+2018-08-12 18:11:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1Bc1a25u-apOVoW76B9x-8Q]]></FromUserName>
+<CreateTime>1534068702</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=delivery&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441820143</MenuId>
+</xml>
+
+2018-08-12 18:11:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1Bc1a25u-apOVoW76B9x-8Q',
+    'createtime' => '1534068702',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=delivery&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441820143',
+    'from' => 'oS2nE1Bc1a25u-apOVoW76B9x-8Q',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534068702',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=delivery&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-12 18:11:42 response :
+------------
+
+2018-08-12 19:19:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1Bc1a25u-apOVoW76B9x-8Q]]></FromUserName>
+<CreateTime>1534072795</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441820143</MenuId>
+</xml>
+
+2018-08-12 19:19:55 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1Bc1a25u-apOVoW76B9x-8Q',
+    'createtime' => '1534072795',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441820143',
+    'from' => 'oS2nE1Bc1a25u-apOVoW76B9x-8Q',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534072795',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-12 19:19:55 response :
+------------
+
+2018-08-12 22:31:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1DlqpQ43Rw23mE5y277Dc38]]></FromUserName>
+<CreateTime>1534084311</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-08-12 22:31:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1DlqpQ43Rw23mE5y277Dc38',
+    'createtime' => '1534084311',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1DlqpQ43Rw23mE5y277Dc38',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534084311',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-08-12 22:31:53 response :
+------------
+
+2018-08-12 22:32:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1DlqpQ43Rw23mE5y277Dc38]]></FromUserName>
+<CreateTime>1534084350</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=manage&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441820143</MenuId>
+</xml>
+
+2018-08-12 22:32:30 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1DlqpQ43Rw23mE5y277Dc38',
+    'createtime' => '1534084350',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=manage&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441820143',
+    'from' => 'oS2nE1DlqpQ43Rw23mE5y277Dc38',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534084350',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=manage&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-12 22:32:30 response :
+------------
+
+2018-08-12 22:32:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1DlqpQ43Rw23mE5y277Dc38]]></FromUserName>
+<CreateTime>1534084369</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=delivery&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441820143</MenuId>
+</xml>
+
+2018-08-12 22:32:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1DlqpQ43Rw23mE5y277Dc38',
+    'createtime' => '1534084369',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=delivery&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441820143',
+    'from' => 'oS2nE1DlqpQ43Rw23mE5y277Dc38',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534084369',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=delivery&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-12 22:32:49 response :
+------------
+
+2018-08-12 22:32:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1DlqpQ43Rw23mE5y277Dc38]]></FromUserName>
+<CreateTime>1534084379</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441820143</MenuId>
+</xml>
+
+2018-08-12 22:32:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1DlqpQ43Rw23mE5y277Dc38',
+    'createtime' => '1534084379',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441820143',
+    'from' => 'oS2nE1DlqpQ43Rw23mE5y277Dc38',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534084379',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-12 22:32:59 response :
+------------
+
+2018-08-12 22:33:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1DlqpQ43Rw23mE5y277Dc38]]></FromUserName>
+<CreateTime>1534084428</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=19]]></EventKey>
+<MenuId>441820143</MenuId>
+</xml>
+
+2018-08-12 22:33:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1DlqpQ43Rw23mE5y277Dc38',
+    'createtime' => '1534084428',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=19',
+    'menuid' => '441820143',
+    'from' => 'oS2nE1DlqpQ43Rw23mE5y277Dc38',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534084428',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=19',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-12 22:33:49 response :
+------------
+
+2018-08-12 22:34:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1DlqpQ43Rw23mE5y277Dc38]]></FromUserName>
+<CreateTime>1534084449</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441820143</MenuId>
+</xml>
+
+2018-08-12 22:34:09 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1DlqpQ43Rw23mE5y277Dc38',
+    'createtime' => '1534084449',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441820143',
+    'from' => 'oS2nE1DlqpQ43Rw23mE5y277Dc38',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534084449',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-12 22:34:09 response :
+------------
+

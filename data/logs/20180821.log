@@ -1,0 +1,5070 @@
+2018-08-21 08:52:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1534812743</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 08:52:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1534812743',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534812743',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 08:52:23 response :
+------------
+
+2018-08-21 09:19:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1534814347</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 09:19:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1534814347',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534814347',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 09:19:08 response :
+------------
+
+2018-08-21 09:19:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1534814378</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 09:19:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1534814378',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534814378',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 09:19:38 response :
+------------
+
+2018-08-21 09:19:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1534814392</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 09:19:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1534814392',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534814392',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 09:19:53 response :
+------------
+
+2018-08-21 09:37:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534815473</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 09:37:54 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534815473',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534815473',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 09:37:54 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 09:39:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1534815584</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>423176970872930307</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-08-21 09:39:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1534815584</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>423176970872930307</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-08-21 09:39:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1534815584',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '423176970872930307',
+    'status' => 'success',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534815584',
+    'type' => 'event',
+  ),
+)
+
+2018-08-21 09:39:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1534815584',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '423176970872930307',
+    'status' => 'success',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534815584',
+    'type' => 'event',
+  ),
+)
+
+2018-08-21 09:39:49 response :
+------------
+
+2018-08-21 09:39:49 response :
+------------
+
+2018-08-21 09:58:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1534816733</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 09:58:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1534816733',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534816733',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 09:58:53 response :
+------------
+
+2018-08-21 09:59:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1534816798</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 09:59:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1534816798',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534816798',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 09:59:58 response :
+------------
+
+2018-08-21 10:06:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534817187</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 10:06:27 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534817187',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534817187',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 10:06:27 response :
+------------
+
+2018-08-21 10:10:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534817446</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 10:10:46 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534817446',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534817446',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 10:10:46 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 10:24:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1CGJPJKvOOV-2axeilQtmms]]></FromUserName>
+<CreateTime>1534818298</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 10:24:58 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'createtime' => '1534818298',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534818298',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 10:24:58 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 10:24:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1CGJPJKvOOV-2axeilQtmms]]></FromUserName>
+<CreateTime>1534818299</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 10:24:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'createtime' => '1534818299',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534818299',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 10:24:59 response :
+------------
+
+2018-08-21 10:25:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1CGJPJKvOOV-2axeilQtmms]]></FromUserName>
+<CreateTime>1534818318</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 10:25:18 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'createtime' => '1534818318',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534818318',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 10:25:18 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 10:25:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1CGJPJKvOOV-2axeilQtmms]]></FromUserName>
+<CreateTime>1534818318</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 10:25:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'createtime' => '1534818318',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534818318',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 10:25:19 response :
+------------
+
+2018-08-21 10:52:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1534819938</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 10:52:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1534819938',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534819938',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 10:52:18 response :
+------------
+
+2018-08-21 10:53:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1534819983</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 10:53:04 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1534819983',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534819983',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 10:53:04 response :
+------------
+
+2018-08-21 11:26:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1CGJPJKvOOV-2axeilQtmms]]></FromUserName>
+<CreateTime>1534821977</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>423284234544054272</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-08-21 11:26:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'createtime' => '1534821977',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '423284234544054272',
+    'status' => 'success',
+    'from' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534821977',
+    'type' => 'event',
+  ),
+)
+
+2018-08-21 11:26:17 response :
+------------
+
+2018-08-21 11:26:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1L8Hd7SfAJ7tF75Yxce3YnQ]]></FromUserName>
+<CreateTime>1534821978</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>423284250683719681</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-08-21 11:26:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1L8Hd7SfAJ7tF75Yxce3YnQ',
+    'createtime' => '1534821978',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '423284250683719681',
+    'status' => 'success',
+    'from' => 'oS2nE1L8Hd7SfAJ7tF75Yxce3YnQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534821978',
+    'type' => 'event',
+  ),
+)
+
+2018-08-21 11:26:18 response :
+------------
+
+2018-08-21 11:28:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1JNcMn-lhaC_KccYfu72O9M]]></FromUserName>
+<CreateTime>1534822083</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 11:28:03 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'createtime' => '1534822083',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1JNcMn-lhaC_KccYfu72O9M',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534822083',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 11:28:03 response :
+------------
+
+2018-08-21 11:55:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1CGJPJKvOOV-2axeilQtmms]]></FromUserName>
+<CreateTime>1534823735</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 11:55:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1CGJPJKvOOV-2axeilQtmms]]></FromUserName>
+<CreateTime>1534823735</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 11:55:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'createtime' => '1534823735',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534823735',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 11:55:35 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 11:55:35 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'createtime' => '1534823735',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534823735',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 11:55:35 response :
+------------
+
+2018-08-21 12:00:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1CGJPJKvOOV-2axeilQtmms]]></FromUserName>
+<CreateTime>1534824024</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 12:00:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'createtime' => '1534824024',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534824024',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 12:00:24 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 12:47:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534826821</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>90.000000</Precision>
+</xml>
+
+2018-08-21 12:47:01 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534826821',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '90.000000',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534826821',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 12:47:01 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 12:47:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534826878</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>90.000000</Precision>
+</xml>
+
+2018-08-21 12:47:58 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534826878',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '90.000000',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534826878',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 12:47:58 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 13:27:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1CGJPJKvOOV-2axeilQtmms]]></FromUserName>
+<CreateTime>1534829257</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>423406373666390017</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-08-21 13:27:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'createtime' => '1534829257',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '423406373666390017',
+    'status' => 'success',
+    'from' => 'oS2nE1CGJPJKvOOV-2axeilQtmms',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534829257',
+    'type' => 'event',
+  ),
+)
+
+2018-08-21 13:27:37 response :
+------------
+
+2018-08-21 14:59:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534834775</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 14:59:35 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534834775',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534834775',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 14:59:35 response :
+------------
+
+2018-08-21 14:59:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534834775</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782167</Latitude>
+<Longitude>103.859856</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 14:59:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534834775',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782167',
+    'longitude' => '103.859856',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534834775',
+    'type' => 'trace',
+    'location_x' => '30.782167',
+    'location_y' => '103.859856',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 14:59:35 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 14:59:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534834778</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 14:59:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534834778',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534834778',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 14:59:38 response :
+------------
+
+2018-08-21 15:00:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534834821</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782167</Latitude>
+<Longitude>103.859856</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 15:00:22 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534834821',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782167',
+    'longitude' => '103.859856',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534834821',
+    'type' => 'trace',
+    'location_x' => '30.782167',
+    'location_y' => '103.859856',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:00:22 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:00:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534834823</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:00:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534834823',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534834823',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:00:23 response :
+------------
+
+2018-08-21 15:12:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534835526</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>90.000000</Precision>
+</xml>
+
+2018-08-21 15:12:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534835526',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '90.000000',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534835526',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:12:06 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:19:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1Ah-T4ST1U-PmwWEK8gBF48]]></FromUserName>
+<CreateTime>1534835977</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:19:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1Ah-T4ST1U-PmwWEK8gBF48',
+    'createtime' => '1534835977',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1Ah-T4ST1U-PmwWEK8gBF48',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534835977',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:19:37 response :
+------------
+
+2018-08-21 15:21:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1Ah-T4ST1U-PmwWEK8gBF48]]></FromUserName>
+<CreateTime>1534836060</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.783691</Latitude>
+<Longitude>103.927605</Longitude>
+<Precision>800.000000</Precision>
+</xml>
+
+2018-08-21 15:21:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1Ah-T4ST1U-PmwWEK8gBF48',
+    'createtime' => '1534836060',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.783691',
+    'longitude' => '103.927605',
+    'precision' => '800.000000',
+    'from' => 'oS2nE1Ah-T4ST1U-PmwWEK8gBF48',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836060',
+    'type' => 'trace',
+    'location_x' => '30.783691',
+    'location_y' => '103.927605',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:21:00 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:21:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1Ah-T4ST1U-PmwWEK8gBF48]]></FromUserName>
+<CreateTime>1534836109</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:21:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1Ah-T4ST1U-PmwWEK8gBF48',
+    'createtime' => '1534836109',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1Ah-T4ST1U-PmwWEK8gBF48',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836109',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:21:49 response :
+------------
+
+2018-08-21 15:21:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1Ah-T4ST1U-PmwWEK8gBF48]]></FromUserName>
+<CreateTime>1534836111</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:21:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1Ah-T4ST1U-PmwWEK8gBF48',
+    'createtime' => '1534836111',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1Ah-T4ST1U-PmwWEK8gBF48',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836111',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:21:51 response :
+------------
+
+2018-08-21 15:22:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534836157</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 15:22:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534836157',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836157',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:22:38 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:22:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1Kr0huiTRfZTxzf7dZ72s7w]]></FromUserName>
+<CreateTime>1534836168</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:22:48 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1Kr0huiTRfZTxzf7dZ72s7w',
+    'createtime' => '1534836168',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1Kr0huiTRfZTxzf7dZ72s7w',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836168',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:22:48 response :
+------------
+
+2018-08-21 15:22:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534836172</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 15:22:53 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534836172',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836172',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:22:53 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:22:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534836173</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:22:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534836173',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836173',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:22:53 response :
+------------
+
+2018-08-21 15:23:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534836231</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 15:23:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534836231',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836231',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:23:51 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:23:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534836232</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:23:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534836232',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836232',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:23:52 response :
+------------
+
+2018-08-21 15:25:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1Kr0huiTRfZTxzf7dZ72s7w]]></FromUserName>
+<CreateTime>1534836308</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:25:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1Kr0huiTRfZTxzf7dZ72s7w',
+    'createtime' => '1534836308',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1Kr0huiTRfZTxzf7dZ72s7w',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836308',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:25:08 response :
+------------
+
+2018-08-21 15:25:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534836336</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782133</Latitude>
+<Longitude>103.859726</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 15:25:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534836336',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782133',
+    'longitude' => '103.859726',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836336',
+    'type' => 'trace',
+    'location_x' => '30.782133',
+    'location_y' => '103.859726',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:25:37 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:27:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534836467</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 15:27:47 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534836467',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836467',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:27:47 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:27:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534836475</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 15:27:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534836475',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836475',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:27:55 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:28:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1IaW7USGYjIPHRoGdmgE_sM]]></FromUserName>
+<CreateTime>1534836506</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.783632</Latitude>
+<Longitude>103.927345</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 15:28:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1IaW7USGYjIPHRoGdmgE_sM',
+    'createtime' => '1534836506',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.783632',
+    'longitude' => '103.927345',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1IaW7USGYjIPHRoGdmgE_sM',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836506',
+    'type' => 'trace',
+    'location_x' => '30.783632',
+    'location_y' => '103.927345',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:28:27 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:28:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1IaW7USGYjIPHRoGdmgE_sM]]></FromUserName>
+<CreateTime>1534836512</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:28:32 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1IaW7USGYjIPHRoGdmgE_sM',
+    'createtime' => '1534836512',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1IaW7USGYjIPHRoGdmgE_sM',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534836512',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:28:32 response :
+------------
+
+2018-08-21 15:41:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534837296</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:41:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534837296',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534837296',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:41:36 response :
+------------
+
+2018-08-21 15:41:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534837302</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782148</Latitude>
+<Longitude>103.859680</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 15:41:42 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534837302',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782148',
+    'longitude' => '103.859680',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534837302',
+    'type' => 'trace',
+    'location_x' => '30.782148',
+    'location_y' => '103.859680',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:41:42 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:41:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534837303</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:41:43 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534837303',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534837303',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:41:43 response :
+------------
+
+2018-08-21 15:47:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534837677</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782141</Latitude>
+<Longitude>103.859703</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 15:47:57 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534837677',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782141',
+    'longitude' => '103.859703',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534837677',
+    'type' => 'trace',
+    'location_x' => '30.782141',
+    'location_y' => '103.859703',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:47:57 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:47:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534837677</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:47:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534837677',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534837677',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:47:58 response :
+------------
+
+2018-08-21 15:48:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534837681</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:48:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534837681',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534837681',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:48:02 response :
+------------
+
+2018-08-21 15:55:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1MITxS1WGC9gE7DUyM5GWZs]]></FromUserName>
+<CreateTime>1534838156</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-08-21 15:55:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1MITxS1WGC9gE7DUyM5GWZs',
+    'createtime' => '1534838156',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1MITxS1WGC9gE7DUyM5GWZs',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534838156',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-08-21 15:55:58 response :
+------------
+
+2018-08-21 15:56:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1MITxS1WGC9gE7DUyM5GWZs]]></FromUserName>
+<CreateTime>1534838160</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:56:00 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1MITxS1WGC9gE7DUyM5GWZs',
+    'createtime' => '1534838160',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1MITxS1WGC9gE7DUyM5GWZs',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534838160',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:56:00 response :
+------------
+
+2018-08-21 15:58:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NUfGmqL6fDdwv4Im5AMVAQ]]></FromUserName>
+<CreateTime>1534838311</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.812449</Latitude>
+<Longitude>103.895210</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 15:58:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'createtime' => '1534838311',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.812449',
+    'longitude' => '103.895210',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534838311',
+    'type' => 'trace',
+    'location_x' => '30.812449',
+    'location_y' => '103.895210',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 15:58:31 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 15:58:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NUfGmqL6fDdwv4Im5AMVAQ]]></FromUserName>
+<CreateTime>1534838312</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 15:58:32 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'createtime' => '1534838312',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1NUfGmqL6fDdwv4Im5AMVAQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534838312',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 15:58:32 response :
+------------
+
+2018-08-21 16:12:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534839167</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782150</Latitude>
+<Longitude>103.859665</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 16:12:47 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534839167',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782150',
+    'longitude' => '103.859665',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534839167',
+    'type' => 'trace',
+    'location_x' => '30.782150',
+    'location_y' => '103.859665',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 16:12:47 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 16:12:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534839168</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=member&op=mine&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 16:12:48 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534839168',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=member&op=mine&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534839168',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=member&op=mine&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 16:12:48 response :
+------------
+
+2018-08-21 16:12:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534839172</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=delivery&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 16:12:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534839172',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=delivery&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534839172',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=delivery&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 16:12:52 response :
+------------
+
+2018-08-21 16:12:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534839176</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782150</Latitude>
+<Longitude>103.859665</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 16:12:56 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534839176',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782150',
+    'longitude' => '103.859665',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534839176',
+    'type' => 'trace',
+    'location_x' => '30.782150',
+    'location_y' => '103.859665',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 16:12:56 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 16:20:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534839601</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782198</Latitude>
+<Longitude>103.859856</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 16:20:01 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534839601',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782198',
+    'longitude' => '103.859856',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534839601',
+    'type' => 'trace',
+    'location_x' => '30.782198',
+    'location_y' => '103.859856',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 16:20:01 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 16:30:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1KQYyUGJfTs11ottW8vhGCM]]></FromUserName>
+<CreateTime>1534840223</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782156</Latitude>
+<Longitude>103.859703</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 16:30:23 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1KQYyUGJfTs11ottW8vhGCM',
+    'createtime' => '1534840223',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782156',
+    'longitude' => '103.859703',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1KQYyUGJfTs11ottW8vhGCM',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534840223',
+    'type' => 'trace',
+    'location_x' => '30.782156',
+    'location_y' => '103.859703',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 16:30:23 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 16:30:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1KQYyUGJfTs11ottW8vhGCM]]></FromUserName>
+<CreateTime>1534840223</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 16:30:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1KQYyUGJfTs11ottW8vhGCM',
+    'createtime' => '1534840223',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1KQYyUGJfTs11ottW8vhGCM',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534840223',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 16:30:23 response :
+------------
+
+2018-08-21 16:37:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534840640</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782228</Latitude>
+<Longitude>103.859711</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 16:37:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534840640',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782228',
+    'longitude' => '103.859711',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534840640',
+    'type' => 'trace',
+    'location_x' => '30.782228',
+    'location_y' => '103.859711',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 16:37:20 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 16:38:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534840686</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782228</Latitude>
+<Longitude>103.859711</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 16:38:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534840686',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782228',
+    'longitude' => '103.859711',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534840686',
+    'type' => 'trace',
+    'location_x' => '30.782228',
+    'location_y' => '103.859711',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 16:38:07 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 16:41:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534840888</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 16:41:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534840888',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534840888',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 16:41:28 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 16:41:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534840888</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 16:41:28 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534840888',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534840888',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 16:41:28 response :
+------------
+
+2018-08-21 16:43:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1A595VTjzcMAVS4PVtGdM0k]]></FromUserName>
+<CreateTime>1534840985</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 16:43:05 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1A595VTjzcMAVS4PVtGdM0k',
+    'createtime' => '1534840985',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1A595VTjzcMAVS4PVtGdM0k',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534840985',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 16:43:05 response :
+------------
+
+2018-08-21 16:45:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534841107</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782219</Latitude>
+<Longitude>103.859795</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 16:45:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534841107',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782219',
+    'longitude' => '103.859795',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534841107',
+    'type' => 'trace',
+    'location_x' => '30.782219',
+    'location_y' => '103.859795',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 16:45:07 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 16:45:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534841107</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 16:45:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534841107',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534841107',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 16:45:08 response :
+------------
+
+2018-08-21 16:46:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1A595VTjzcMAVS4PVtGdM0k]]></FromUserName>
+<CreateTime>1534841164</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>423606130196185088</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-08-21 16:46:04 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1A595VTjzcMAVS4PVtGdM0k',
+    'createtime' => '1534841164',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '423606130196185088',
+    'status' => 'success',
+    'from' => 'oS2nE1A595VTjzcMAVS4PVtGdM0k',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534841164',
+    'type' => 'event',
+  ),
+)
+
+2018-08-21 16:46:04 response :
+------------
+
+2018-08-21 16:46:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534841194</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 16:46:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534841194',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534841194',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 16:46:35 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 16:46:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534841197</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=manage&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 16:46:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534841197',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=manage&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534841197',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=manage&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 16:46:37 response :
+------------
+
+2018-08-21 16:46:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534841215</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 16:46:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534841215',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534841215',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 16:46:55 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 16:52:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534841519</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782202</Latitude>
+<Longitude>103.859695</Longitude>
+<Precision>20.000000</Precision>
+</xml>
+
+2018-08-21 16:52:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534841519',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782202',
+    'longitude' => '103.859695',
+    'precision' => '20.000000',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534841519',
+    'type' => 'trace',
+    'location_x' => '30.782202',
+    'location_y' => '103.859695',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 16:52:00 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 16:54:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1HC9rku1rgCqWvulWqAl4UE]]></FromUserName>
+<CreateTime>1534841643</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782639</Latitude>
+<Longitude>103.860023</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 16:54:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'createtime' => '1534841643',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782639',
+    'longitude' => '103.860023',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1HC9rku1rgCqWvulWqAl4UE',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534841643',
+    'type' => 'trace',
+    'location_x' => '30.782639',
+    'location_y' => '103.860023',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 16:54:03 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 16:57:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534841873</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 16:57:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534841873',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534841873',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 16:57:53 response :
+------------
+
+2018-08-21 16:59:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534841966</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 16:59:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534841966',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534841966',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 16:59:26 response :
+------------
+
+2018-08-21 17:00:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1A595VTjzcMAVS4PVtGdM0k]]></FromUserName>
+<CreateTime>1534842002</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>423620196079861765</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-08-21 17:00:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1A595VTjzcMAVS4PVtGdM0k',
+    'createtime' => '1534842002',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '423620196079861765',
+    'status' => 'success',
+    'from' => 'oS2nE1A595VTjzcMAVS4PVtGdM0k',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842002',
+    'type' => 'event',
+  ),
+)
+
+2018-08-21 17:00:02 response :
+------------
+
+2018-08-21 17:00:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842010</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782267</Latitude>
+<Longitude>103.859871</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:00:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842010',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782267',
+    'longitude' => '103.859871',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842010',
+    'type' => 'trace',
+    'location_x' => '30.782267',
+    'location_y' => '103.859871',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:00:10 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:00:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842012</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:00:12 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842012',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842012',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:00:12 response :
+------------
+
+2018-08-21 17:00:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842015</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.781927</Latitude>
+<Longitude>103.859741</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:00:15 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842015',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.781927',
+    'longitude' => '103.859741',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842015',
+    'type' => 'trace',
+    'location_x' => '30.781927',
+    'location_y' => '103.859741',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:00:15 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:01:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842075</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.781895</Latitude>
+<Longitude>103.859810</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:01:16 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842075',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.781895',
+    'longitude' => '103.859810',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842075',
+    'type' => 'trace',
+    'location_x' => '30.781895',
+    'location_y' => '103.859810',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:01:16 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:02:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842120</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.781942</Latitude>
+<Longitude>103.859772</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:02:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842120',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.781942',
+    'longitude' => '103.859772',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842120',
+    'type' => 'trace',
+    'location_x' => '30.781942',
+    'location_y' => '103.859772',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:02:00 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:02:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842121</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:02:01 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842121',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842121',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:02:01 response :
+------------
+
+2018-08-21 17:02:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842143</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:02:24 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842143',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842143',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:02:24 response :
+------------
+
+2018-08-21 17:02:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842174</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782139</Latitude>
+<Longitude>103.859772</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:02:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842174',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782139',
+    'longitude' => '103.859772',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842174',
+    'type' => 'trace',
+    'location_x' => '30.782139',
+    'location_y' => '103.859772',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:02:55 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:02:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842178</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:02:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842178',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842178',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:02:58 response :
+------------
+
+2018-08-21 17:06:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842377</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782030</Latitude>
+<Longitude>103.859795</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:06:18 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842377',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782030',
+    'longitude' => '103.859795',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842377',
+    'type' => 'trace',
+    'location_x' => '30.782030',
+    'location_y' => '103.859795',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:06:18 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:06:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842394</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782030</Latitude>
+<Longitude>103.859795</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:06:34 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842394',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782030',
+    'longitude' => '103.859795',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842394',
+    'type' => 'trace',
+    'location_x' => '30.782030',
+    'location_y' => '103.859795',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:06:34 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:06:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842395</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:06:35 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842395',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842395',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:06:35 response :
+------------
+
+2018-08-21 17:06:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842404</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:06:44 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842404',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842404',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:06:44 response :
+------------
+
+2018-08-21 17:07:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842436</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:07:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842436',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842436',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:07:18 response :
+------------
+
+2018-08-21 17:08:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842524</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782137</Latitude>
+<Longitude>103.859772</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:08:44 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842524',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782137',
+    'longitude' => '103.859772',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842524',
+    'type' => 'trace',
+    'location_x' => '30.782137',
+    'location_y' => '103.859772',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:08:44 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:08:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842526</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:08:46 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842526',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842526',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:08:46 response :
+------------
+
+2018-08-21 17:10:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1I3bcGOZ4wRVw-loxL4ANws]]></FromUserName>
+<CreateTime>1534842659</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782234</Latitude>
+<Longitude>103.859764</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:10:59 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1I3bcGOZ4wRVw-loxL4ANws',
+    'createtime' => '1534842659',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782234',
+    'longitude' => '103.859764',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1I3bcGOZ4wRVw-loxL4ANws',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842659',
+    'type' => 'trace',
+    'location_x' => '30.782234',
+    'location_y' => '103.859764',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:10:59 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:11:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1I3bcGOZ4wRVw-loxL4ANws]]></FromUserName>
+<CreateTime>1534842661</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:11:01 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1I3bcGOZ4wRVw-loxL4ANws',
+    'createtime' => '1534842661',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1I3bcGOZ4wRVw-loxL4ANws',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842661',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:11:01 response :
+------------
+
+2018-08-21 17:11:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842682</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782009</Latitude>
+<Longitude>103.859734</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:11:22 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842682',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782009',
+    'longitude' => '103.859734',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842682',
+    'type' => 'trace',
+    'location_x' => '30.782009',
+    'location_y' => '103.859734',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:11:22 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:11:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842683</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:11:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842683',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842683',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:11:23 response :
+------------
+
+2018-08-21 17:16:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842986</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.781898</Latitude>
+<Longitude>103.859726</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:16:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842986',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.781898',
+    'longitude' => '103.859726',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842986',
+    'type' => 'trace',
+    'location_x' => '30.781898',
+    'location_y' => '103.859726',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:16:26 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:16:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534842987</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:16:27 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534842987',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534842987',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:16:27 response :
+------------
+
+2018-08-21 17:19:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534843145</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782055</Latitude>
+<Longitude>103.859772</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:19:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534843145',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782055',
+    'longitude' => '103.859772',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534843145',
+    'type' => 'trace',
+    'location_x' => '30.782055',
+    'location_y' => '103.859772',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:19:05 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:19:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534843195</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782251</Latitude>
+<Longitude>103.859825</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:19:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534843195',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782251',
+    'longitude' => '103.859825',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534843195',
+    'type' => 'trace',
+    'location_x' => '30.782251',
+    'location_y' => '103.859825',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:19:55 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:19:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534843195</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:19:55 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534843195',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534843195',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:19:55 response :
+------------
+
+2018-08-21 17:23:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534843439</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>423644298479697923</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2018-08-21 17:23:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534843439',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '423644298479697923',
+    'status' => 'success',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534843439',
+    'type' => 'event',
+  ),
+)
+
+2018-08-21 17:23:59 response :
+------------
+
+2018-08-21 17:32:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1I3bcGOZ4wRVw-loxL4ANws]]></FromUserName>
+<CreateTime>1534843939</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782011</Latitude>
+<Longitude>103.859688</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:32:19 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1I3bcGOZ4wRVw-loxL4ANws',
+    'createtime' => '1534843939',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782011',
+    'longitude' => '103.859688',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1I3bcGOZ4wRVw-loxL4ANws',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534843939',
+    'type' => 'trace',
+    'location_x' => '30.782011',
+    'location_y' => '103.859688',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:32:19 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:32:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1I3bcGOZ4wRVw-loxL4ANws]]></FromUserName>
+<CreateTime>1534843942</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:32:22 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1I3bcGOZ4wRVw-loxL4ANws',
+    'createtime' => '1534843942',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1I3bcGOZ4wRVw-loxL4ANws',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534843942',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:32:22 response :
+------------
+
+2018-08-21 17:34:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NyKAz1tp4U1N7YPdKsC8YQ]]></FromUserName>
+<CreateTime>1534844054</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2018-08-21 17:34:15 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NyKAz1tp4U1N7YPdKsC8YQ',
+    'createtime' => '1534844054',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oS2nE1NyKAz1tp4U1N7YPdKsC8YQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534844054',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2018-08-21 17:34:15 response :
+------------
+
+2018-08-21 17:34:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NyKAz1tp4U1N7YPdKsC8YQ]]></FromUserName>
+<CreateTime>1534844057</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782759</Latitude>
+<Longitude>103.859749</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 17:34:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NyKAz1tp4U1N7YPdKsC8YQ',
+    'createtime' => '1534844057',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782759',
+    'longitude' => '103.859749',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1NyKAz1tp4U1N7YPdKsC8YQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534844057',
+    'type' => 'trace',
+    'location_x' => '30.782759',
+    'location_y' => '103.859749',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:34:17 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:34:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NyKAz1tp4U1N7YPdKsC8YQ]]></FromUserName>
+<CreateTime>1534844057</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:34:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NyKAz1tp4U1N7YPdKsC8YQ',
+    'createtime' => '1534844057',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1NyKAz1tp4U1N7YPdKsC8YQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534844057',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:34:17 response :
+------------
+
+2018-08-21 17:35:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NyKAz1tp4U1N7YPdKsC8YQ]]></FromUserName>
+<CreateTime>1534844153</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782915</Latitude>
+<Longitude>103.859451</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 17:35:54 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NyKAz1tp4U1N7YPdKsC8YQ',
+    'createtime' => '1534844153',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782915',
+    'longitude' => '103.859451',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1NyKAz1tp4U1N7YPdKsC8YQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534844153',
+    'type' => 'trace',
+    'location_x' => '30.782915',
+    'location_y' => '103.859451',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:35:54 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:35:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NyKAz1tp4U1N7YPdKsC8YQ]]></FromUserName>
+<CreateTime>1534844154</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 17:35:54 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NyKAz1tp4U1N7YPdKsC8YQ',
+    'createtime' => '1534844154',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1NyKAz1tp4U1N7YPdKsC8YQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534844154',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 17:35:54 response :
+------------
+
+2018-08-21 17:36:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NyKAz1tp4U1N7YPdKsC8YQ]]></FromUserName>
+<CreateTime>1534844162</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782915</Latitude>
+<Longitude>103.859451</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 17:36:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NyKAz1tp4U1N7YPdKsC8YQ',
+    'createtime' => '1534844162',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782915',
+    'longitude' => '103.859451',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1NyKAz1tp4U1N7YPdKsC8YQ',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534844162',
+    'type' => 'trace',
+    'location_x' => '30.782915',
+    'location_y' => '103.859451',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:36:02 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:40:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534844428</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.781998</Latitude>
+<Longitude>103.859818</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:40:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534844428',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.781998',
+    'longitude' => '103.859818',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534844428',
+    'type' => 'trace',
+    'location_x' => '30.781998',
+    'location_y' => '103.859818',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:40:28 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 17:47:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1F5KNMdlaxzgU2W5c9SS1Cg]]></FromUserName>
+<CreateTime>1534844830</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782106</Latitude>
+<Longitude>103.859734</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 17:47:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'createtime' => '1534844830',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782106',
+    'longitude' => '103.859734',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1F5KNMdlaxzgU2W5c9SS1Cg',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534844830',
+    'type' => 'trace',
+    'location_x' => '30.782106',
+    'location_y' => '103.859734',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 17:47:10 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 18:11:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1IaW7USGYjIPHRoGdmgE_sM]]></FromUserName>
+<CreateTime>1534846318</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.783688</Latitude>
+<Longitude>103.927460</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2018-08-21 18:11:58 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1IaW7USGYjIPHRoGdmgE_sM',
+    'createtime' => '1534846318',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.783688',
+    'longitude' => '103.927460',
+    'precision' => '65.000000',
+    'from' => 'oS2nE1IaW7USGYjIPHRoGdmgE_sM',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534846318',
+    'type' => 'trace',
+    'location_x' => '30.783688',
+    'location_y' => '103.927460',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 18:11:58 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2018-08-21 18:11:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1IaW7USGYjIPHRoGdmgE_sM]]></FromUserName>
+<CreateTime>1534846319</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 18:11:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1IaW7USGYjIPHRoGdmgE_sM',
+    'createtime' => '1534846319',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1IaW7USGYjIPHRoGdmgE_sM',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534846319',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 18:11:59 response :
+------------
+
+2018-08-21 18:12:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1IaW7USGYjIPHRoGdmgE_sM]]></FromUserName>
+<CreateTime>1534846321</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 18:12:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1IaW7USGYjIPHRoGdmgE_sM',
+    'createtime' => '1534846321',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1IaW7USGYjIPHRoGdmgE_sM',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534846321',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=store&op=goods&do=mobile&m=we7_wmall&sid=32',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 18:12:02 response :
+------------
+
+2018-08-21 18:12:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1IaW7USGYjIPHRoGdmgE_sM]]></FromUserName>
+<CreateTime>1534846333</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall]]></EventKey>
+<MenuId>441995331</MenuId>
+</xml>
+
+2018-08-21 18:12:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1IaW7USGYjIPHRoGdmgE_sM',
+    'createtime' => '1534846333',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'menuid' => '441995331',
+    'from' => 'oS2nE1IaW7USGYjIPHRoGdmgE_sM',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534846333',
+    'type' => 'text',
+    'content' => 'http://www.scjdzgy.com/app/index.php?i=2&c=entry&ctrl=wmall&ac=home&op=index&do=mobile&m=we7_wmall',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2018-08-21 18:12:13 response :
+------------
+
+2018-08-21 18:33:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2d8af677b35f]]></ToUserName>
+<FromUserName><![CDATA[oS2nE1NhNvNXOENEL98BaE42yJ5U]]></FromUserName>
+<CreateTime>1534847582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.782141</Latitude>
+<Longitude>103.859741</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2018-08-21 18:33:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_2d8af677b35f',
+    'fromusername' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'createtime' => '1534847582',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.782141',
+    'longitude' => '103.859741',
+    'precision' => '30.000000',
+    'from' => 'oS2nE1NhNvNXOENEL98BaE42yJ5U',
+    'to' => 'gh_2d8af677b35f',
+    'time' => '1534847582',
+    'type' => 'trace',
+    'location_x' => '30.782141',
+    'location_y' => '103.859741',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2018-08-21 18:33:03 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+

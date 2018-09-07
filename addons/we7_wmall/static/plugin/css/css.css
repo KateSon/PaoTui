@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*门诊缴费成功提醒*/
+.Outpatient{width:100%; height:100%; padding:0px 15px; box-sizing: border-box;}
+.Outpatient ul{}
+.Outpatient ul li{width:100%; margin-bottom:15px;}
+.Outpatient ul li .clock{padding:10px 0px; box-sizing: border-box; width:100%; text-align:center;}
+.clock span{height:24px; line-height: 24px; font-size:10px; color:#fff; padding:0px 10px; background:#d4d4d4; border-radius:2px;}
+.Outpatient ul li .payCost{width:100%; padding:20px 14px 0px 14px; box-sizing: border-box; border-radius:5px; background:#fff;}
+.success_on{width:100%; padding-bottom:14px; border-bottom:1px solid #eeeeee;}
+.success_on h3{font-size:16px; color:#1e1e1e; font-weight: normal; margin-bottom:5px;}
+.success_on em{display: block; font-style:normal; font-size:12px; color:#aeaeae; margin-bottom:12px;}
+.success_on p{font-size:14px; color:#002566;}
+.success_on p  span{color:#1e1e1e;}
+.payCost .xq_on{width:100%; }
+.xq_on a{display: inline-block; height: 50px; line-height: 50px; font-size:14px; color:#565d78;}
+.success_on p.color{color:#ff3333;}
+
+/*挂号*/
+.registeredAll{width:100%; padding:20px 18px; }
+.registeredAll .todayRes{width:100%; padding:0px 30px; box-sizing: border-box;}
+.todayRes ul li{width:100%; margin-bottom:20px;}
+.todayRes .dayTere{width:100%;  position: relative; padding:25px; border-radius:10px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+.dayTere p{font-size:18px; color:#fff; margin-bottom:8px;     font-style: normal;} 
+.dayTere span{font-size:14px; color:#fff; text-transform: unset;     font-style: normal;}
+.dayTere i.icon1{background:url(../images/img1.png) no-repeat; background-size: contain; width:39px; height:44px; display: inline-block; position: absolute; right:27px; top:25px;}
+.today_on .dayTere{box-shadow: #f5e5d7 0px 2px 13px 6px}
+.appion_on .dayTere{box-shadow: #dae0f5 0px 2px 13px 6px}
+.dayTere i.icon2{background:url(../images/img2.png) no-repeat; background-size: contain; width:48px; height:46px; display: inline-block; position: absolute; right:20px; top:25px;}
+.frendShio{width:100%; margin-top:42px;}
+.frendShio span{display: block; font-size:14px; color:#333333;}
+.frendShio p{font-size:14px; color:#666666; line-height: 28px; margin-top:10px;}
+
+.bg{width:100%; display: none; height:100%; position: fixed; top:0px; left:0px; z-index:23; background:rgba(0,0,0,0.4); }
+.tc-innner h3,.drgh h3{width:100%; line-height: 45px; position: relative; font-size:14px; color:#333; font-weight: normal;}
+.tc-innner h3 i,.drgh h3 i{background:url(../images/cha.png) no-repeat; background-size: contain; width:15px; height:15px; 
+display: inline-block; position: absolute; right:14px; top:13px;}
+
+/*当日挂号弹窗*/
+.drgh{ background: #fff; width: 90%; position: fixed; top: 20%; left: 50%; margin-left:-45%; z-index: 24;  border-radius: 6px; overflow: hidden;
+display: none; padding:0px 14px;  box-sizing: border-box;}
+.tc-bot_on{width:100%; padding:20px 5px; box-sizing: border-box; }
+.tc-bot_on a{width:100%; height:42px; border-radius:7px;  line-height: 42px; text-align:center; font-size:14px; color:; background:#f5f5f5; color:#999; display: inline-block;} 
+.tc-bot_on a.on{color:#fff; background:#1cc6a2;}
+.drgh p{font-size:14px; color:#f8851f;}
+.move_on{width:100%; padding:30px 50px 10px 50px; box-sizing: border-box;}
+.move_on a{width:70px; background:#f1f1f1;  display: inline-block; height:70px; border-radius:100%; line-height: 70px; text-align:center; font-size:14px;}
+.move_on a.on{background:#1cc6a2; color:#fff;}
+
+/*诊所医生*/
+.areaMain{width:100%;}
+.city_on{width:100%; position: relative; height:40px; background:#fff; line-height: 40px; padding:0px 13px 0px 36px; }
+.city_on span{width:100%; display: inline-block; font-size:14px; color:#666666;}
+.city_on i{background:url(../images/address.png) no-repeat; background-size: contain; width:13px; height:14px; display: inline-block; position: absolute; top:14px; left:15px;}
+.city_on em{width:9px; height:7px; background:url(../images/sanjiao.png) no-repeat; background-size:contain; display: inline-block;
+position: absolute; top:16px; right:14px;}
+.physicians{width:100%; margin-top:5px;}
+.physicians ul{}
+.physicians ul li{width:100%; margin-bottom:9px; position: relative; padding:12px 10px; box-sizing: border-box; background:#fff; overflow:hidden;}
+.physicians ul li .atLeft{width:76px; height:76px; margin-top:3px; float:left;}
+.physicians ul li .atLeft i{border-radius:100%; width:76px; height: 76px; background-size:contain; background-repeat: no-repeat; }
+.physicians ul li .atRight{width:calc(100% - 76px); -moz-width:calc(100% - 76px); -ms-width:calc(100% - 76px); -webkit-width:calc(100% - 76px);
+float:left; padding-left:10px; box-sizing: border-box; }
+.atRight h3{font-size:15px; color:#1cc6a2; font-weight:normal; }
+.atRight h3 em{height:18px; line-height: 18px; font-style:normal; display: inline-block; font-size:11px; padding:0px 8px; border-radius:20px;
+ color:#f8851f; border:1px solid #f8851f; margin-left:7px; position: relative; top:-1px; }
+.atRight span{display: block; margin-top:6px; font-size:12px; color:#666666;}
+.atRight p{width:70%; font-size: 12px; color:#999; line-height: 20px; margin-top:5px;}
+.physicians ul li em.yuyue{width:55px; height:25px; background:#1cc6a2; text-align:center; line-height: 25px; font-size:12px; color:#fff;
+display: inline-block; font-style:normal; position: absolute; top:44px; right:10px; border-radius:5px; }
+
+/*挂号详情*/
+.mianAll{width:100%;}
+.mianAll .cardNum{width:100%; }
+.cardNum .bunber{width:100%; overflow:hidden; height:42px;  border-bottom:1px solid #f5f5f5; padding:0px 15px; box-sizing: border-box;background:#fff;}
+.bunber p{float:left; width:30%; height:42px; line-height: 42px; color:#999999; font-size:14px; }
+.bunber span{width:70%; float:right; height:42px; line-height: 42px; color:#333; float:right; text-align:right;}
+.beizhus{width:100%; background:#fff; padding:9px 15px; box-sizing: border-box; } 
+.beizhus span{font-size:14px; color:#999999;}
+.beizhus p{font-size:14px; color:#333333; line-height: 26px; margin-top: 4px; }
+.comeHui{width:100%; padding:28px 20px; box-sizing: border-box;}
+.comeHui a{width:100%; height:38px; line-height: 38px; background:#1cc6a2; display: block; font-size:14px; color:#fff; text-align:center; border-radius:5px; }
+
+/*医生主页*/
+.clinic_on{width:100%; margin-bottom:9px; background:#fff; overflow: hidden; padding:18px 10px; box-sizing: border-box;}
+.clinic_on .doctor{width:76px; height:76px; margin-top:3px; float:left;}
+.doctor i{border-radius:100%; width:76px; height: 76px; background-size:contain; background-repeat: no-repeat;}
+.clinic_on .clinic_font{width:calc(100% - 76px); -moz-width:calc(100% - 76px); -ms-width:calc(100% - 76px); -webkit-width:calc(100% - 76px);
+float:left; padding-left:10px; box-sizing: border-box; }
+.clinic_font h3{font-size:17px; color:#1cc6a2; font-weight:normal; margin-bottom:7px; }
+.clinic_font p{font-size:12px; color:#666666; }
+#table_swiper{background:#fff; padding-bottom:30px; box-sizing: border-box;}
+.tableSlide{width:100%; }
+.tableSlide table{width:100%; border-collapse: collapse;}
+.tableSlide tr{width:100%; border-bottom:1px solid #ececec;}
+.tableSlide tr td{width:5.555%; font-size:12px; color:#666666; height:42px; text-align:center; border-right:1px solid #ececec;}
+.tableSlide tr th{padding:5px 0px; font-size:11px; color:#666666; font-weight:normal; border-right:1px solid #ececec;}
+.orderYue{width:100%; height:38px; line-height: 38px;  padding:0px 20px; box-sizing: border-box; background:#1cc6a2; font-size:12px; color:#fff;}
+.orderYue i{width:4px; height:13px; display: inline-block; background:#fff; margin-right:7px; position: relative; top:2px; }
+.tableSlide tr td span{width:100%; height:42px; display: inline-block; line-height: 42px;}
+.tableSlide tr td span.on{background:#f8851f; color:#fff;}
+.tableSlide tr td span.on a{color:#fff; width:100%; height:42px; display: inline-block;}
+.tableSlide tr td span.on a:hover{text-decoration: none;}
+.tableSlide tr td span.error{background:#efefef; color:#666;}
+.swiper-pagination-bullet{background:#fff; border:2px solid #ececec; opacity: 1}
+.swiper-pagination-bullet-active{background:#1cc6a2; border:0 none;}
+.Introduction{width:100%; background:#fff; margin-top:9px; padding:0px 14px 15px 10px; box-sizing: border-box;}
+.Introduction .introTit{width:100%; overflow:hidden; height: 40px; }
+.introTit p{float:left; height:40px; line-height: 40px; font-size:12px; color:#1cc6a2;}
+.introTit p i.jian{background:url(../images/book.png) no-repeat; background-size:contain; width:17px; height:14px; display: inline-block;
+margin-right:5px; position: relative; top:2px; }
+.introTit span{height:40px;  width:40px; display:inline-block; float:right;  text-align:right;}
+.introTit span i{background:url(../images/xiala.png) no-repeat; background-size:contain; width:12px; height:10px; display: inline-block;
+ position: relative; top:14px; }
+.wenzi{width:100%; font-size:12px; color:#666666; line-height: 22px;  height: 44px; overflow: hidden;}
+.introTit p i.shan{background:url(../images/maozi.png) no-repeat; background-size:contain; width:17px; height:14px; display: inline-block;
+margin-right:5px; position: relative; top:2px; }
+
+/**/
+.orderWin{width:90%; position: fixed; display: none; z-index:33; padding:0px 15px; box-sizing: border-box; top:10%; left:50%; margin-left:-45%; background:#fff; border-radius:5px;  }
+.orderWin .sure_on{width:100%; height:40px; line-height: 40px; overflow: hidden;}
+.sure_on p{float:left; font-size: 14px; color:#333333;}
+.sure_on i{background:url(../images/cha.png) no-repeat; float:right; background-size: contain; width:15px; height:14px; 
+display: inline-block; float:right; position: relative; top:15px; }
+.orderWin .user_on{width:100%;}
+.user_on p{width:100%; line-height: 33px; font-size:14px; color:#1cc6a2;}
+.user_on .xinxi_on1{width:100%; margin-bottom:9px; overflow:hidden;}
+.xinxi_on1 span{width:15%; display: inline-block; float:left; font-size:14px; color:#333333;}
+.xinxi_on1 em{width:82%; font-style:normal; display: inline-block; float:right; font-size:14px; color:#333333;}
+.user_on .xinxi_on{width:100%; margin-bottom:6px; overflow:hidden;}
+.xinxi_on span{width:23%; display: inline-block; float:left; font-size:14px; color:#333333;}
+.xinxi_on em{width:75%; line-height: 22px; font-style:normal; display: inline-block; float:right; font-size:14px; color:#333333;}
+.pay_on{width:100%; }
+.pay_on p{width:100%; margin-bottom:4px; line-height: 40px; font-size:14px; color:#1cc6a2;}
+.pay_on ul{}
+.pay_on ul li{width:100%; overflow: hidden; margin-bottom:18px; }
+.pay_on ul li span{ font-size:14px; color:#333; float:left; }
+.pay_on ul li span i.wein1{background: url(../images/weixin.png) no-repeat; background-size:contain; width:17px; height:15px; display: inline-block; margin-right:8px; 
+position: relative; top:3px; }
+.pay_on ul li em{float:right; background-image:url(../images/gou1.png); background-size:contain; background-repeat: no-repeat; width:17px; height:17px; }
+.pay_on ul li.on em{background-image:url(../images/gou2.png);}
+.pay_on ul li span i.wein2{background: url(../images/fangzi.png) no-repeat; background-size:contain; width:17px; height:15px; display: inline-block; margin-right:8px; 
+position: relative; top:3px; }
+.queding{width:100%; padding:5px 0px 20px 0px; box-sizing: border-box; text-align:center; }
+.queding a{width:47%; display: inline-block; height:40px; line-height: 40px; text-align:center; text-align: center; border-radius:5px; background:#eeeeee;
+font-size:14px; color:#999;}
+.queding a.on{background:#1cc6a2; color:#fff;}
+
+/*我的就诊卡*/
+.addCard{width:100%; background:#fff; height:70px; line-height: 70px; text-align:center;  font-size:14px;}
+.addCard a{ color:#1cc6a2;}
+.addCard i{background:url(../images/tianjia.png) no-repeat; background-size:contain; width:24px; height:24px; display: inline-block; position: relative;
+top:6px; margin-right:8px; }
+.medicalDoor{width:100%; padding:14px; box-sizing: border-box;}
+.medicalDoor ul{}
+.medicalDoor ul li{width:100%; background:#fff; border-radius:5px; margin-bottom:13px; box-shadow: rgba(0,0,0,0.05) 0px 1px 6px 1px; -webkit-box-shadow: rgba(0,0,0,0.05) 0px 1px 6px 1px;}
+.medicalDoor ul li .door1{width:100%; padding:11px 11px 1px 11px; box-sizing: border-box;}
+.medicalDoor ul li .door1 p{font-size:16px; color:#333333; margin-bottom:12px; }
+.medicalDoor ul li .door1 span{font-size:14px; color:#333333; display: block; margin-bottom:10px;}
+.medicalDoor ul li .door2{width:100%; padding:4px 0px; height:42px; box-sizing: border-box; border-top:1px solid #eaeaea; background:#f9f9f9;}
+.medicalDoor ul li .door2 a{width:50%;  font-size:14px;  color:#999999; float:left; display: inline-block; text-align:center; line-height: 34px; }
+.door2 a.jcbd{border-right:1px solid #eeeeee; }
+.medicalDoor ul li .door2 a.on{color:#1cc6a2;}
+
+
+/*添加就诊卡*/
+.tjzk{width:100%;}
+.tjzk .username{width:100%; background:#fff; border-bottom:1px solid #f4f4f4; overflow: hidden; height:42px; padding:0px 15px; box-sizing: border-box; }
+.username label{width:25%; float:left; display: inline-block; height: 42px; line-height: 42px; font-size:14px; color:#666666;}
+.username input{width:75%; float:left; text-align:right; line-height: 42px; font-size:14px; color::#ccc;}
+.username input[type="text"]::-webkit-input-placeholder{
+	color:#ccc;
+}
+.bangding{width:100%; padding:26px 10px; box-sizing: border-box;}
+.bangding input{width:100%; height:42px; background:#1cc6a2; border:0 none; font-size:14px; color:#fff; text-align:center; border-radius:5px; }
+
+/*登录*/
+.physicians ul li a:hover,.atRight a:hover{text-decoration: none;}
+.headTop{width:100%; height:42px; line-height: 42px; position: relative;  }
+.headTop p{width:100%; height:42px; line-height: 42px; text-align:center; font-size:16px; color:#333333;}
+.headTop .closeCha{width:42px; height:42px; position: absolute; top:0px; left:0px; padding-top:13px; box-sizing: border-box;}
+.headTop .closeCha i{display: block; margin:0 auto; background:url(../images/cha1.png) no-repeat; background-size: contain; width:15px; height:15px; }
+.dlxt{width:100%; padding:50px 35px 0px 35px; box-sizing: border-box; }
+.conBao .pass_on,.conBao .pass_on1{width:100%; margin-bottom:10px;  height:46px; position: relative; border-bottom:1px solid #e7e7e7; padding-left:35px; box-sizing: border-box;}
+.conBao .pass_on.active,.conBao .pass_on1.active{border-bottom:1px solid #1cc6a2;}
+.conBao .pass_on i{background:url(../images/phone.png) no-repeat; background-size:contain; display: inline-block; width:10px; height:15px;
+position: absolute; left:10px; top:50%; margin-top:-7px;}
+.conBao .pass_on input{width:100%; line-height: 45px; font-size:16px; color:#333333; background:#f4f4f4;}
+.conBao .pass_on1 i{background:url(../images/pass.png) no-repeat; background-size:contain; display: inline-block; width:20px; height:15px;
+position: absolute; left:6px; top:50%; margin-top:-7px;}
+.conBao .pass_on1 input[type="text"]{width:70%; line-height: 45px; font-size:16px; color:#333333; background:#f4f4f4;}
+.conBao .pass_on1 input[type="button"]{width:86px; height:33px; text-align:center; line-height: 33px;  font-size:12px; color:#1cc6a2; background:#f0f0f0;
+border:0 none; border-radius:5px; position: absolute; right:0px; bottom:7px;}
+.dl_on{width:100%; margin-top:68px;}
+.dl_on input{width:100%; height:42px; background:#1cc6a2; border:0 none; font-size:14px; color:#fff; text-align:center; border-radius:5px; }
+.foot_on{width:100%; position: fixed; bottom:0px; left:0px;}
+.foot_on img{width:100%;}
+.conBao{width:100%; margin-top:45px;}
+.systemDl{width:100%;}
+.systemDl p{font-size: 22px; color:#333333; letter-spacing: 2px; }
+.systemDl span{font-size:14px; color:#1cc6a2; letter-spacing: 3px;}
+.same_on input[type="text"]::-webkit-input-placeholder{
+	color:#333333;
+}
+
+
+/*填写挂号信息*/
+.tjzk .namePink{width:100%; background:#fff; border-bottom:1px solid #f4f4f4; overflow: hidden; height:42px; padding:0px 15px; box-sizing: border-box; }
+.namePink label{width:25%; float:left; display: inline-block; height: 42px; line-height: 42px; font-size:14px; color:#666666;}
+.namePink input{width:75%; float:left; line-height: 42px; font-size:14px; color::#ccc;}
+.namePink input[type="text"]::-webkit-input-placeholder{
+	color:#ccc;
+}
+.namePink{position: relative;}
+.namePink span{font-size:14px; color:#333; position: absolute; right: 10px; top:11px; }
+.xt_on{width:100%; padding:15px 10px 8px 16px; box-sizing: border-box; font-size:12px; color:#1cc6a2;}
+.ynase{color:#1cc6a2!important;}
+
+/*确认信息*/
+.inforSure{width:100%;}
+.userMation{background:#fff; padding:0px 16px 5px 16px;  box-sizing: border-box;}
+.userMation h3{width:100%; line-height: 39px; margin-bottom:3px; border-bottom:1px solid #efefef; font-size:12px; color:#1cc6a2; font-weight:normal; }
+.userMation .careId{width:100%; line-height: 33px; overflow:hidden;}
+.careId span{font-size:14px; color:#999999; display: inline-block; width:26%; float:left;}
+.careId p{display: inline-block; font-size:14px; color:#333333; width:74%; float:left; }
+.marJan{margin-top:9px; }
+.userMation{width:100%;}
+.userMation ul li{width:100%; padding:0px 7px; box-sizing: border-box; position: relative; height:40px; line-height: 40px; font-size:14px; color:#333333;}
+.userMation ul li em{background-repeat: no-repeat; background-size: contain; display: inline-block; display: inline-block; margin-right:60px;
+position: relative; top:3px; }
+.userMation ul li em.con1{background-image: url(../images/weixin.png); width:17px; height:14px; }
+.userMation ul li em.con2{background-image: url(../images/fangzi.png); width:15px; height:15px; }
+.userMation ul li i{background-image:url(../images/gou1.png); background-repeat: no-repeat; background-size: contain; width:17px; height:17px; position: absolute; top:13px; right:8px; }
+.userMation ul li.on i{background-image:url(../images/gou2.png); }
+
+/*挂号记录*/
+.recordMain{width:100%; }
+.recordMain ul{}
+.recordMain ul li{background:#fff; margin-bottom:10px; padding:0px 9px; box-sizing: border-box;}
+.recordMain ul li .record_on{width:100%; padding:0px 5px; box-sizing: border-box; line-height: 33px; overflow: hidden; border-bottom:1px dashed #e9e9e9;}
+.record_on p{font-size:14px; float:left; color:#666666;}
+.record_on p i{background:url(../images/times_01.png) no-repeat; background-size: contain; display: inline-block; width:15px; height:15px; position: relative; top:2px; margin-right:7px;}
+.record_on span{float:right; font-size:16px; color:#1cc6a2;}
+.record_up{width:100%; padding:5px 10px; box-sizing: border-box;}
+.record_up p{line-height: 28px; font-size:14px; color:#333333;}
+.record_up p i{background-image:url(../images/yuan2.png); width:6px; height:6px; background-size: contain; display: inline-block; margin-right:8px;
+position: relative; top:-1px; background-repeat: no-repeat; }
+.record_up p i.on{background-image:url(../images/yuan1.png);}

@@ -1,0 +1,111 @@
+{itemplate 'public/header'}
+<form action="./index.php?" method="post"  class="form-horizontal form-filter">
+	{php echo tpl_form_filter_hidden('order/tangshi/logistics');}
+	<input type="hidden" name="id" value="{$order['id']}"/>		
+	
+		{if !empty($order['logistics_company'])}
+			<div class="form-group">
+			<label class="col-xs-12 col-sm-3 col-md-2 control-label">物流公司</label>
+			<div class="col-sm-9 col-xs-12">				
+				<div class="btn-group">
+					<input type="text" id="company" name="company" value="{$logistics['company']}" disabled class="form-control" placeholder="物流公司">
+				</div>				
+			</div>
+		</div>			
+		{else}
+			<div class="form-group">
+			<label class="col-xs-12 col-sm-3 col-md-2 control-label">物流设置</label>
+			<div class="col-sm-9 col-xs-12">			
+				<select id="company" name="company" class="form-control select2">
+					<option value="0">选择物流</option>
+					{loop $logistics $store}
+						<option value="{$store['sign']}">{$store['company']}</option>
+					{/loop}
+				</select>
+				
+			</div>
+		</div>
+		{/if}
+		
+		
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-3 col-md-2 control-label">用户名</label>
+			<div class="col-sm-9 col-xs-12">				
+				<div class="btn-group">
+					<input type="text" id="username" name="username" value="{$order['username']}" class="form-control" placeholder="用户名">
+				</div>				
+			</div>
+		</div>
+		
+		
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-3 col-md-2 control-label">手机号</label>
+			<div class="col-sm-9 col-xs-12">				
+				<div class="btn-group">
+					<input type="text" id="mobile" name="mobile" value="{$order['mobile']}" class="form-control" placeholder="手机号">
+				</div>				
+			</div>
+		</div>
+		
+		
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-3 col-md-2 control-label">订单号</label>
+			<div class="col-sm-9 col-xs-12 col-md-10">				
+				<div class="btn-group">
+					<input type="text" id="logorder" name="logistics_order" value="{$order['logistics_order']}" class="form-control" placeholder="请输入订单号">
+				</div>				
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-3 col-md-2 control-label">寄件人地址</label>
+			<div class="col-sm-9 col-xs-12 col-md-10">					
+				<input type="text" id="address" name="address" value="{$order['address']}" class="form-control" placeholder="寄件人地址">						
+			</div>
+		</div>
+			
+		<div class="form-group" style="border:0;">
+			<label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
+			<div class="col-sm-9 col-xs-12">
+				<button class="btn btn-primary tijiao">提交</button>
+			</div>
+		</div>
+</form>
+	
+<script>
+	/*$(".tijiao").click(function(){
+		var params = {
+			address: $('#address').val(),
+			logorder: $('#logorder').val(),
+			mobile: $('#mobile').val(),
+			username: $('#username').val(),
+			company: $('#company').val()			
+		};
+		console.log(params);
+		$.post("{php echo imurl('wmall/order/create/company', array('id' => $order['id']));}", params, function(data){
+			var result = $.parseJSON(data);
+			console.log(result);
+			if(result.message.errno != 0) {
+				if(result.message.errno == -1) {
+					$(this).addClass('bg-danger').removeClass('bg-grey');
+					$.toast(result.message.message);
+				} else {
+					$.alert(result.message.message, function(){
+						location.href = "{php echo imurl('wmall/store/goods', array('sid' => $sid));}";
+					});
+				}
+			} else {
+				$.toast('下单成功');
+				location.href = "{php echo imurl('system/paycenter/pay', array('sid' => $sid, 'order_type' => 'takeout'));}&id=" + result.message.message;
+			}
+			return false;
+		});
+		var type = $(this).data('type');
+		var value = $(this).find(':checkbox').prop('checked') ? 0 : 1;
+		$.post(location.href, {type: type, value: value}, function(){
+			location.reload();
+		});
+		return false;
+	});*/
+</script>
+{itemplate 'public/footer'}

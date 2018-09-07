@@ -1,0 +1,17 @@
+<?php defined('IN_IA') or exit('Access Denied');?><?php  include itemplate('public/header', TEMPLATE_INCLUDEPATH);?>
+<div class="page clearfix">
+	<h2>计划任务</h2>
+	<form class="form-horizontal form form-validate" id="form1" action="" method="post" enctype="multipart/form-data">
+		<div class="alert alert-info">
+			计划任务只需设置一次，所有公众号均可使用<br>
+			注意：此功能需要在阿里云上配置云监控。
+		</div>
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-3 col-md-2 control-label">直接链接</label>
+			<div class="col-md-6">
+				<p class="form-control-static js-clip" data-href="<?php  echo $url;?>"><?php  echo $url;?></p>
+			</div>
+		</div>
+	</form>
+</div>
+<?php  include itemplate('public/footer', TEMPLATE_INCLUDEPATH);?>
